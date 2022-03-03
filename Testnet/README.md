@@ -62,3 +62,9 @@ matrixd keys add <key-name>
 ```
 
 Fund your wallet from the faucet and make sure that your node has caught up to the latest block.
+
+Send create-validator transaction
+
+```
+matrixd
+```
