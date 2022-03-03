@@ -19,5 +19,46 @@ matrixd init <your-node-name> --chain-id <chain-id>
 Download genesis file
 
 ```
+curl https://raw.githubusercontent.com/MatrixDao/Networks/main/Testnet/genesis.json > $HOME/.matrix/config/genesis.json
+```
+
+Double check the genesis file checksum
 
 ```
+
+```
+
+Update your gas prices
+
+```
+sudo nano $HOME/.matrix/config/app.toml
+# recommended to set to "0.025umatrx"
+```
+
+Configure your config file
+
+```
+sudo nano $HOME/.matrix/config/config.toml
+```
+
+- Set external address
+- Add seeds and/or persistent peers
+- Set pex and private_peer_ids according to your sentry node architecture
+
+Start your node
+
+```
+matrixd start
+```
+
+Within a few minutes you should start connecting to peers and catching up blocks.
+
+## Create a validator
+
+Add keys
+
+```
+matrixd keys add <key-name>
+```
+
+Fund your wallet from the faucet and make sure that your node has caught up to the latest block.
