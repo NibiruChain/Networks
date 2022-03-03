@@ -10,32 +10,32 @@ First, make sure that you have the correct Matrix version installed according to
 
 ## Connect to the Testnet
 
-Initialize the node
+### Initialize the node
 
 ```
 matrixd init <your-node-name> --chain-id <chain-id>
 ```
 
-Download genesis file
+### Download genesis file
 
 ```
 curl https://raw.githubusercontent.com/MatrixDao/Networks/main/Testnet/genesis.json > $HOME/.matrix/config/genesis.json
 ```
 
-Double check the genesis file checksum
+### Double check the genesis file checksum
 
 ```
 
 ```
 
-Update your gas prices
+### Update your gas prices
 
 ```
 sudo nano $HOME/.matrix/config/app.toml
 # recommended to set to "0.025umatrx"
 ```
 
-Configure your config file
+### Configure your config file
 
 ```
 sudo nano $HOME/.matrix/config/config.toml
@@ -45,7 +45,7 @@ sudo nano $HOME/.matrix/config/config.toml
 - Add seeds and/or persistent peers
 - Set pex and private_peer_ids according to your sentry node architecture
 
-Start your node
+### Start your node
 
 ```
 matrixd start
@@ -55,7 +55,7 @@ Within a few minutes you should start connecting to peers and catching up blocks
 
 ## Create a validator
 
-Add keys
+### Add keys
 
 ```
 matrixd keys add <key-name>
@@ -63,7 +63,7 @@ matrixd keys add <key-name>
 
 Fund your wallet from the faucet and make sure that your node has caught up to the latest block.
 
-Send create-validator transaction
+### Send create-validator transaction
 
 ```
 matrixd
