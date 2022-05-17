@@ -74,7 +74,6 @@ EOF
 
 ```bash
 systemctl daemon-reload
-systemctl start nibiru
 systemctl enable nibiru
 ```
 
@@ -113,11 +112,19 @@ systemctl enable nibiru
 
 5. Start your node with  `nibid start` or `systemctl start nibiru` if you've created a service for it. Make sure it synced up to the tip.
 
-6. Create validator
+6. Request tokens from the [Web Faucet for Nibiru-1 Testnet](http://ec2-35-172-193-127.compute-1.amazonaws.com:8003/) if required.
+
+Example:
+```bash
+curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' http://ec2-35-172-193-127.compute-1.amazonaws.com:8003
+```
+Please note, that current Testnet Faucet limit is `100000000unibi`.
+
+7. Create validator
 
    ```bash
    nibid tx staking create-validator \
-   --amount 50000unibi \
+   --amount 10000000unibi \
    --commission-max-change-rate "0.1" \
    --commission-max-rate "0.20" \
    --commission-rate "0.1" \
@@ -129,13 +136,5 @@ systemctl enable nibiru
    --gas-prices 0.025unibi \
    --from <key-name>
    ```
-
-7. You can equest tokens from the [Web Faucet for Nibiru-1 Testnet](http://ec2-35-172-193-127.compute-1.amazonaws.com:8003/) if required.
-
-Example:
-```bash
-curl -X POST -d '{"address": "your address here", "coins": ["50000unibi"]}' http://ec2-35-172-193-127.compute-1.amazonaws.com:8003
-```
-Please note, that current Testnet Faucet limit is 1000000unibi
 
 8. Verify your validator status via [Nibiru-1 Testnet Block Explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
