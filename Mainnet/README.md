@@ -1,3 +1,5 @@
-# Matrix Mainnet
+# Nibiru Mainnet
 
-Everything you need to join the Matrix Mainnet.
+Everything you need to join the Nibiru Mainnet.
+
+TODO

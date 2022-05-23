@@ -1,9 +1,8 @@
-# Matrix Networks
+# Nibiru Networks
 
-This repository contains information about the different Matrix networks.
+This repository contains information about the different Nibiru networks.
 
-Network | Chain ID | Version | Description
-------- | -------- | ------- | -----------
-Testnet | matrix-testnet-1 | v0.0.1 | Matrix testnet 1
-Mainnet | TBD | TBD | Coming soon
-
+| Network | Chain ID | Version | Description      |
+|---------|----------|---------|------------------|
+| Testnet | nibiru-1 | v0.0.0  | Nibiru testnet 1 |
+| Mainnet | TBD      | TBD     | Coming soon      |
