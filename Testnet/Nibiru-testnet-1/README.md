@@ -33,6 +33,7 @@ After the installation open a new terminal to properly load go or run `source /h
 ```bash
 cd $HOME
 git clone https://github.com/NibiruChain/nibiru && cd nibiru
+git checkout v0.2.8
 ```
 or extract the archive received from the Nibiru team.
 
