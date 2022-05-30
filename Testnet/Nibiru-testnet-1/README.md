@@ -88,7 +88,7 @@ systemctl enable nibiru
 1. Init Chain and start your node
 
    ```bash
-   nibid init <moniker-name> --chain-id=nibiru-1 --home $HOME/.nibid
+   nibid init <moniker-name> --chain-id=nibiru-testnet-1 --home $HOME/.nibid
    ```
 
 2. Create a local key pair
@@ -149,7 +149,7 @@ Please note, that current Testnet Faucet limit is `10000000unibi`.
    --details "put your validator description there" \
    --pubkey=$(nibid tendermint show-validator) \
    --moniker <your_moniker> \
-   --chain-id nibiru-1 \
+   --chain-id nibiru-testnet-1 \
    --gas-prices 0.025unibi \
    --from <key-name>
    ```
