@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-05-23T17:47:20.146973655Z",
-  "chain_id": "nibiru-1",
+  "genesis_time": "2022-05-27T00:12:39.973078216Z",
+  "chain_id": "nibiru-testnet-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -273,7 +273,7 @@
             }
           },
           "signatures": [
-            "6FDWsx2PAFofZOmTqIouu9jbsWm+5n9zVeaSYBHLmEtcXGN2yPTBRrcQrxqg/CYMIi0ddp0UlMkh/hvmEprUyQ=="
+            "0ehs6YaPblM3sZN/NJd0CYMqa0UXgB4mOZiVgWpkvgpkSpNhZ3et/aHR8D5hEPLS2RK7VhSb8yrFkTLdLCJZPQ=="
           ]
         },
         {
@@ -334,7 +334,7 @@
             }
           },
           "signatures": [
-            "lUGM6ZwgWhPWy9ifBF/kYw3qBjl4N72czSCSyhZJxVwwrNoh5WpYP9HqgKNbIYO2d6VgiD1cen/wb+9PFX+exg=="
+            "XyBHBX3dVDY5wI0I7VjE0afeeuIBjllWNtIXfNTFWhZsJvUUcXTFTX40ItGe912q/aZi3gmK9aIjF/7su7rrew=="
           ]
         },
         {
@@ -395,7 +395,7 @@
             }
           },
           "signatures": [
-            "N1GKmV1ag1NPG46PwQpflKZq5eakk8afMrAgpS5+4kl5ImaFDCP5mibNfGtqCmB1e5UuTvImy4djw29c/3e9nA=="
+            "1lfxErkBnatQXZk4TCrkqJ2ZUzX7F53BrKNX+bfhv0BuCP1H8ClzD9ir8csEK0CjA5QYKd/l+/oIH50Crlp0Lw=="
           ]
         }
       ]
@@ -456,7 +456,8 @@
       "module_account_balance": {
         "denom": "uust",
         "amount": "0"
-      }
+      },
+      "pair_metadata": []
     },
     "pricefeed": {
       "params": {
@@ -522,6 +523,10 @@
       "exported": false
     },
     "upgrade": {},
-    "vesting": {}
+    "vesting": {},
+    "vpool": {
+      "vpools": [],
+      "params": {}
+    }
   }
 }
