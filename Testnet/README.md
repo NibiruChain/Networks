@@ -4,4 +4,4 @@ You can find the list of the Nibiru testnets below. Please follow the instructio
 
 | Network | Chain ID         | Version | Description      |  Status  |
 |---------|------------------|---------|------------------|----------|
-| Testnet | nibiru-1         | v0.2.8  | Nibiru testnet 1 |  active  |
+| Testnet | nibiru-testnet-1 | v0.4.14 | Nibiru testnet 1 |  active  |
