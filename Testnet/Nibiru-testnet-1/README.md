@@ -26,24 +26,23 @@ sudo apt install git build-essential ufw curl jq snapd make gcc --yes
 
 wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.18
 
-After the installation open a new terminal to properly load go or run `source /home/<your_user>/.bashrc`
+After the installation open a new terminal to properly load go or run `source $HOME/.bashrc`
 
 ### 4. Install Nibiru from the repository
 
 ```bash
 cd $HOME
 git clone https://github.com/NibiruChain/nibiru && cd nibiru
-git checkout v0.2.8
+git checkout v0.4.14
 ```
 or extract the archive received from the Nibiru team.
 
-In this repository, simply run 
+In this repository, run 
 ```bash
-make build 
 make install
 ```
 
-Verify the binary version (should be v0.2.8):
+Verify the binary version (should be v0.4.14):
 
 ```bash
 nibid version
@@ -89,7 +88,7 @@ systemctl enable nibiru
 1. Init Chain and start your node
 
    ```bash
-   nibid init <moniker-name> --chain-id=nibiru-1 --home /home/<your_user>/.nibid
+   nibid init <moniker-name> --chain-id=nibiru-1 --home $HOME/.nibid
    ```
 
 2. Create a local key pair
@@ -109,13 +108,18 @@ systemctl enable nibiru
 
    ```bash
     shasum -a 256 ~/.nibid/config/genesis.json
-    5dd1f06d746448246368f58d7ad21992960031bb80dd34d1f00bf4be09f1e223  /home/<user>/.nibid/config/genesis.json
+    d4a707f32b73210bc6370dfed155a6f8eafa75173cdf3ba734a91f1412821006  /home/<user>/.nibid/config/genesis.json
    ```
    
    Or copy the genesis file included in the archive received from the Nibiru Team to the `$HOME/.nibid/config` folder
    
 4. Update persistent peers list in the configuration file $HOME/.nibid/config/config.toml with the ones from the persistent_peers.txt
 
+   or navigate to the directory with the `persistent_peers.txt` file and run
+   ```bash
+   export PEERS=$(cat persistent_peers.txt| tr '\n' '_' | sed 's/_/,/g;s/,$//;s/^/"/;s/$/"/') && sed -i "s/persistent_peers = \"\"/persistent_peers = ${PEERS}/g" $HOME/.nibid/config/config.toml
+   ```
+   
 5. Set gas prices
 
 ```
