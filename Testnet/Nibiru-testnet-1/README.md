@@ -24,7 +24,9 @@ sudo apt install git build-essential ufw curl jq snapd make gcc --yes
 
 ### 3. Install Golang
 
+```bash
 wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.18
+```
 
 After the installation open a new terminal to properly load go or run `source $HOME/.bashrc`
 
@@ -79,8 +81,8 @@ EOF
 2. Enable the service
 
 ```bash
-systemctl daemon-reload
-systemctl enable nibiru
+sudo systemctl daemon-reload
+sudo systemctl enable nibiru
 ```
 
 ## Create Nibiru-1 Testnet validator
@@ -101,7 +103,7 @@ systemctl enable nibiru
 3. Download genesis file
    
    ```bash
-   curl https://<your_github_access_token>@raw.githubusercontent.com/NibiruChain/Networks/main/Testnet/genesis.json > $HOME/.nibid/config/genesis.json
+   curl https://<your_github_access_token>@raw.githubusercontent.com/NibiruChain/Networks/main/Testnet/Nibiru-testnet-1/genesis.json > $HOME/.nibid/config/genesis.json
    ```
 
    **Genesis.json sha256**
