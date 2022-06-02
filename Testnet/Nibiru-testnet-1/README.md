@@ -116,12 +116,18 @@ sudo systemctl enable nibiru
    Or copy the genesis file included in the archive received from the Nibiru Team to the `$HOME/.nibid/config` folder
    
 4. Update persistent peers list in the configuration file $HOME/.nibid/config/config.toml with the ones from the persistent_peers.txt
-
-   or navigate to the directory with the `persistent_peers.txt` file and run
+   ```bash
+   cd $HOME
+   git clone https://github.com/NibiruChain/Networks
+   cd Networks/Testnet/Nibiru-testnet-1
+   export PEERS=$(cat persistent_peers.txt| tr '\n' '_' | sed 's/_/,/g;s/,$//;s/^/"/;s/$/"/') && sed -i "s/persistent_peers = \"\"/persistent_peers = ${PEERS}/g" $HOME/.nibid/config/config.toml
+   ```
+   or navigate to the directory with the `persistent_peers.txt`file you've received from the Nibiru team manually and run
    ```bash
    export PEERS=$(cat persistent_peers.txt| tr '\n' '_' | sed 's/_/,/g;s/,$//;s/^/"/;s/$/"/') && sed -i "s/persistent_peers = \"\"/persistent_peers = ${PEERS}/g" $HOME/.nibid/config/config.toml
    ```
    
+
 5. Set gas prices
 
 ```
