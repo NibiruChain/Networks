@@ -25,14 +25,7 @@
   ```bash
   nibid version
   ```
-  
-## 3. Start and sync the node
-
-  Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it.  
-  Make sure it synced up to the tip (you can use `nibid status 2>&1 | jq .`  
-  Fully synced node should have `"catching_up": false` in the output.
-
  
-## 4. Recreate the validator
+## 3. Recreate the validator
 
 Follow the same steps [from the README.md manual](https://github.com/NibiruChain/Networks/blob/main/Testnet/Nibiru-testnet-1/README.md#create-nibiru-1-testnet-validator) again
