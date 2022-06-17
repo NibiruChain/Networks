@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-05-27T00:12:39.973078216Z",
-  "chain_id": "nibiru-testnet-1",
+  "genesis_time": "2022-06-17T17:56:37.60920447Z",
+  "chain_id": "nibiru-testnet-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -241,7 +241,7 @@
                 },
                 "value": {
                   "denom": "unibi",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               }
             ],
@@ -273,7 +273,7 @@
             }
           },
           "signatures": [
-            "0ehs6YaPblM3sZN/NJd0CYMqa0UXgB4mOZiVgWpkvgpkSpNhZ3et/aHR8D5hEPLS2RK7VhSb8yrFkTLdLCJZPQ=="
+            "uWdNr//SWomrxvyk5ZfaW59GvxgCWovmk02RKsS9zuBhOaE0QFZ6e3UKdnjggbZhvY/uRLz46ogNEVq2iC1Oqg=="
           ]
         },
         {
@@ -302,7 +302,7 @@
                 },
                 "value": {
                   "denom": "unibi",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               }
             ],
@@ -334,7 +334,7 @@
             }
           },
           "signatures": [
-            "XyBHBX3dVDY5wI0I7VjE0afeeuIBjllWNtIXfNTFWhZsJvUUcXTFTX40ItGe912q/aZi3gmK9aIjF/7su7rrew=="
+            "TyEXUjhkbllzbwGENokgN3Pm7AWuOq0HnipfzkL8M/RD2idpwVinw9h2oepJGvMOTupHmFzYcvIrXMYH6PbagA=="
           ]
         },
         {
@@ -363,7 +363,7 @@
                 },
                 "value": {
                   "denom": "unibi",
-                  "amount": "1000000"
+                  "amount": "10000000"
                 }
               }
             ],
@@ -395,7 +395,7 @@
             }
           },
           "signatures": [
-            "1lfxErkBnatQXZk4TCrkqJ2ZUzX7F53BrKNX+bfhv0BuCP1H8ClzD9ir8csEK0CjA5QYKd/l+/oIH50Crlp0Lw=="
+            "Gbuwb8EoeK5TmBLk0xfRpSIHpHwBdKMDLsb6ppooK60T37YJzYrkhwr4e/1nRx5TpinQOLHx/0FLBeSLlp7QMQ=="
           ]
         }
       ]
