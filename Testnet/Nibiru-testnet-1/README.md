@@ -44,7 +44,7 @@ In this repository, run
 make install
 ```
 
-Verify the binary version (should be v0.4.14):
+Verify the binary version (should be v0.4.21):
 
 ```bash
 nibid version
