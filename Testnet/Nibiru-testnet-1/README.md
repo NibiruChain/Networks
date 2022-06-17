@@ -35,7 +35,7 @@ After the installation open a new terminal to properly load go or run `source $H
 ```bash
 cd $HOME
 git clone https://github.com/NibiruChain/nibiru && cd nibiru
-git checkout v0.4.14
+git checkout v0.4.21
 ```
 or extract the archive received from the Nibiru team.
 
@@ -44,7 +44,7 @@ In this repository, run
 make install
 ```
 
-Verify the binary version (should be v0.4.14):
+Verify the binary version (should be v0.4.21):
 
 ```bash
 nibid version
@@ -90,7 +90,7 @@ sudo systemctl enable nibiru
 1. Init Chain and start your node
 
    ```bash
-   nibid init <moniker-name> --chain-id=nibiru-testnet-1 --home $HOME/.nibid
+   nibid init <moniker-name> --chain-id=nibiru-testnet-2 --home $HOME/.nibid
    ```
 
 2. Create a local key pair
@@ -110,7 +110,7 @@ sudo systemctl enable nibiru
 
    ```bash
     shasum -a 256 ~/.nibid/config/genesis.json
-    d4a707f32b73210bc6370dfed155a6f8eafa75173cdf3ba734a91f1412821006  /home/<user>/.nibid/config/genesis.json
+    183f45b7038ee8844d372ea725ca8f9de966d084f74b2ced2e5d1fa26df172c3  /home/<user>/.nibid/config/genesis.json
    ```
    
    Or copy the genesis file included in the archive received from the Nibiru Team to the `$HOME/.nibid/config` folder
@@ -143,7 +143,9 @@ Example:
 ```bash
 curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' http://ec2-35-172-193-127.compute-1.amazonaws.com:8003
 ```
-Please note, that current Testnet Faucet limit is `10000000unibi`.
+Please note, that current Testnet Web Faucet limit is `10000000unibi`.
+
+You can also use Testnet Discord Faucet in the Nibiru Chain server (#faucet channel).
 
 8. Create validator
 
@@ -157,7 +159,7 @@ Please note, that current Testnet Faucet limit is `10000000unibi`.
    --details "put your validator description there" \
    --pubkey=$(nibid tendermint show-validator) \
    --moniker <your_moniker> \
-   --chain-id nibiru-testnet-1 \
+   --chain-id nibiru-testnet-2 \
    --gas-prices 0.025unibi \
    --from <key-name>
    ```
