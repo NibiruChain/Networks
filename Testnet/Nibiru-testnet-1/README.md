@@ -35,7 +35,8 @@ After the installation open a new terminal to properly load go or run `source $H
 ```bash
 cd $HOME
 git clone https://github.com/NibiruChain/nibiru && cd nibiru
-git checkout v0.4.21
+git fetch --tags
+git checkout v0.9.2
 ```
 or extract the archive received from the Nibiru team.
 
@@ -44,7 +45,7 @@ In this repository, run
 make install
 ```
 
-Verify the binary version (should be v0.4.21):
+Verify the binary version (should be `HEAD-dfe69463fe6914811134b9db9893c733f7676c52`):
 
 ```bash
 nibid version
@@ -90,7 +91,7 @@ sudo systemctl enable nibiru
 1. Init Chain and start your node
 
    ```bash
-   nibid init <moniker-name> --chain-id=nibiru-testnet-2 --home $HOME/.nibid
+   nibid init <moniker-name> --chain-id=nibiru-testnet-3 --home $HOME/.nibid
    ```
 
 2. Create a local key pair
@@ -110,7 +111,7 @@ sudo systemctl enable nibiru
 
    ```bash
     shasum -a 256 ~/.nibid/config/genesis.json
-    183f45b7038ee8844d372ea725ca8f9de966d084f74b2ced2e5d1fa26df172c3  /home/<user>/.nibid/config/genesis.json
+    5c881b95bfa735cb3f60513910f9c8035a6888933b4d2cea89fa0ef69351134c  /home/<user>/.nibid/config/genesis.json
    ```
    
    Or copy the genesis file included in the archive received from the Nibiru Team to the `$HOME/.nibid/config` folder
@@ -159,7 +160,7 @@ You can also use Testnet Discord Faucet in the Nibiru Chain server (#faucet chan
    --details "put your validator description there" \
    --pubkey=$(nibid tendermint show-validator) \
    --moniker <your_moniker> \
-   --chain-id nibiru-testnet-2 \
+   --chain-id nibiru-testnet-3 \
    --gas-prices 0.025unibi \
    --from <key-name>
    ```
