@@ -17,6 +17,7 @@
   ```bash
   cd nibiru
   git pull
+  git fetch --tags
   git checkout <version>
   make install
   ```
