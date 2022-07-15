@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-06-17T17:56:37.60920447Z",
-  "chain_id": "nibiru-testnet-2",
+  "genesis_time": "2022-07-14T23:37:35.154102213Z",
+  "chain_id": "nibiru-testnet-3",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -82,7 +82,7 @@
           "coins": [
             {
               "denom": "unibi",
-              "amount": "100000000000000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -91,7 +91,7 @@
           "coins": [
             {
               "denom": "unibi",
-              "amount": "10000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -100,7 +100,7 @@
           "coins": [
             {
               "denom": "unibi",
-              "amount": "100000000000000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "coins": [
             {
               "denom": "unibi",
-              "amount": "100000000000000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -118,7 +118,7 @@
           "coins": [
             {
               "denom": "unibi",
-              "amount": "100000000000000000000"
+              "amount": "100000000000"
             }
           ]
         }
@@ -126,7 +126,7 @@
       "supply": [
         {
           "denom": "unibi",
-          "amount": "400000000010000000000"
+          "amount": "500000000000"
         }
       ],
       "denom_metadata": []
@@ -152,8 +152,9 @@
         ],
         "whitelisted_asset": [
           "unibi",
-          "uust",
-          "unusd"
+          "uusdc",
+          "unusd",
+          "unibi"
         ]
       }
     },
@@ -200,6 +201,15 @@
           "identifier": "15 min",
           "start_time": "0001-01-01T00:00:00Z",
           "duration": "900s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "30 min",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "1800s",
           "current_epoch": "0",
           "current_epoch_start_time": "0001-01-01T00:00:00Z",
           "epoch_counting_started": false,
@@ -273,7 +283,7 @@
             }
           },
           "signatures": [
-            "uWdNr//SWomrxvyk5ZfaW59GvxgCWovmk02RKsS9zuBhOaE0QFZ6e3UKdnjggbZhvY/uRLz46ogNEVq2iC1Oqg=="
+            "DgsgjYOhGa1lUcSWWhInUbsQEsqIn+fwXHzdRhtf05IVTpM7O9fz0gK18RkF3DLNN1QISXl2V9ImJmTJS9jQfQ=="
           ]
         },
         {
@@ -334,7 +344,7 @@
             }
           },
           "signatures": [
-            "TyEXUjhkbllzbwGENokgN3Pm7AWuOq0HnipfzkL8M/RD2idpwVinw9h2oepJGvMOTupHmFzYcvIrXMYH6PbagA=="
+            "bLIjjXYP27cUzTNbFyLn2rr6OlvH9O4Ik/5YN5sjLa5OWNxD0cBB+vlx/9BnZA9RLnOf3zV2yHTspyN92JVr8A=="
           ]
         },
         {
@@ -395,7 +405,7 @@
             }
           },
           "signatures": [
-            "Gbuwb8EoeK5TmBLk0xfRpSIHpHwBdKMDLsb6ppooK60T37YJzYrkhwr4e/1nRx5TpinQOLHx/0FLBeSLlp7QMQ=="
+            "uNQ1CRdxmJX76EKBin3v7SnQOszG7gBjRkHkqfGzfPYtwHsVJZM9SF0+h7TKRnSjb+ESE66rCwvqW9vbHW0CXw=="
           ]
         }
       ]
@@ -415,12 +425,45 @@
         "max_deposit_period": "172800s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "10h"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
       }
     },
     "incentivization": {
@@ -446,37 +489,46 @@
     "params": null,
     "perp": {
       "params": {
-        "stopped": true,
+        "stopped": false,
         "maintenance_margin_ratio": "0.062500000000000000",
-        "toll_ratio": "1000",
-        "spread_ratio": "1000",
-        "liquidation_fee": "12500",
-        "partial_liquidation_ratio": "500000"
+        "fee_pool_fee_ratio": "0.001000000000000000",
+        "ecosystem_fund_fee_ratio": "0.001000000000000000",
+        "liquidation_fee_ratio": "0.025000000000000000",
+        "partial_liquidation_ratio": "0.250000000000000000",
+        "epoch_identifier": "30 min",
+        "twap_lookback_window": "900s"
       },
-      "module_account_balance": {
-        "denom": "uust",
-        "amount": "0"
-      },
-      "pair_metadata": []
+      "vault_balance": [],
+      "perp_ef_balance": [],
+      "fee_pool_balance": [],
+      "pair_metadata": [],
+      "positions": [],
+      "prepaid_bad_debts": [],
+      "whitelisted_addresses": []
     },
     "pricefeed": {
       "params": {
         "pairs": [
           {
-            "token0": "uust",
-            "token1": "unusd",
-            "oracles": [],
-            "active": true
+            "token0": "unibi",
+            "token1": "unusd"
           },
           {
-            "token0": "unibi",
-            "token1": "unusd",
-            "oracles": [],
-            "active": true
+            "token0": "uusdc",
+            "token1": "unusd"
+          },
+          {
+            "token0": "axlwbtc",
+            "token1": "unusd"
+          },
+          {
+            "token0": "axlweth",
+            "token1": "unusd"
           }
         ]
       },
-      "posted_prices": []
+      "posted_prices": [],
+      "genesis_oracles": []
     },
     "slashing": {
       "params": {
@@ -502,7 +554,7 @@
         "isCollateralRatioValid": false
       },
       "module_account_balance": {
-        "denom": "uust",
+        "denom": "uusdc",
         "amount": "0"
       }
     },
@@ -521,6 +573,14 @@
       "unbonding_delegations": [],
       "redelegations": [],
       "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
     },
     "upgrade": {},
     "vesting": {},
