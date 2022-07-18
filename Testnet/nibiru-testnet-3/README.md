@@ -1,4 +1,4 @@
-# Nibiru-1 Testnet Instructions
+# nibiru-testnet-3 Instructions
 
 ## Minimum hardware requirements
 
@@ -45,7 +45,7 @@ In this repository, run
 make install
 ```
 
-Verify the binary version (should be `HEAD-dfe69463fe6914811134b9db9893c733f7676c52`):
+Verify the binary version (should be `v0.9.2`):
 
 ```bash
 nibid version
@@ -86,7 +86,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable nibiru
 ```
 
-## Create Nibiru-1 Testnet validator
+## Create a testnet validator
 
 1. Init Chain and start your node
 
@@ -104,13 +104,15 @@ sudo systemctl enable nibiru
 3. Download genesis file
    
    ```bash
-   curl https://<your_github_access_token>@raw.githubusercontent.com/NibiruChain/Networks/main/Testnet/Nibiru-testnet-1/genesis.json > $HOME/.nibid/config/genesis.json
+   cd $HOME
+   git clone https://github.com/NibiruChain/Networks
+   cp $HOME/Networks/Testnet/nibiru-testnet-3/genesis.json $HOME/.nibid/config/genesis.json
    ```
 
    **Genesis.json sha256**
 
    ```bash
-    shasum -a 256 ~/.nibid/config/genesis.json
+    shasum -a 256 $HOME/.nibid/config/genesis.json
     5c881b95bfa735cb3f60513910f9c8035a6888933b4d2cea89fa0ef69351134c  /home/<user>/.nibid/config/genesis.json
    ```
    
@@ -118,9 +120,7 @@ sudo systemctl enable nibiru
    
 4. Update persistent peers list in the configuration file $HOME/.nibid/config/config.toml with the ones from the persistent_peers.txt
    ```bash
-   cd $HOME
-   git clone https://github.com/NibiruChain/Networks
-   cd Networks/Testnet/Nibiru-testnet-1
+   cd $HOME/Networks/Testnet/nibiru-testnet-3
    export PEERS=$(cat persistent_peers.txt| tr '\n' '_' | sed 's/_/,/g;s/,$//;s/^/"/;s/$/"/') && sed -i "s/persistent_peers = \"\"/persistent_peers = ${PEERS}/g" $HOME/.nibid/config/config.toml
    ```
    or navigate to the directory with the `persistent_peers.txt`file you've received from the Nibiru team manually and run
@@ -165,4 +165,4 @@ You can also use Testnet Discord Faucet in the Nibiru Chain server (#faucet chan
    --from <key-name>
    ```
 
-8. Verify your validator status via [Nibiru-1 Testnet Block Explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
+8. Verify your validator status via [Nibiru Testnet Block Explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
