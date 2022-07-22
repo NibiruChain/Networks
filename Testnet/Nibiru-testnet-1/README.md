@@ -86,6 +86,89 @@ sudo systemctl daemon-reload
 sudo systemctl enable nibiru
 ```
 
+### 6. Setup Cosmovisor (optional)
+
+1. Install Cosmovisor
+
+```
+git clone https://github.com/cosmos/cosmos-sdk
+cd cosmos-sdk
+git checkout cosmovisor/v1.1.0
+make cosmovisor
+cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
+cd $HOME
+```
+
+2. Set up enviromental variables
+
+```
+export DAEMON_NAME=nibid
+export DAEMON_HOME=$HOME/.nibid
+source ~/.profile
+```
+
+3. Create required directories
+
+```
+mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
+mkdir -p $DAEMON_HOME/cosmovisor/upgrades
+```
+
+4. Add the genesis version of the binary (currently it is `0.9.2` version). You can verify your binary location with `which nibid` command.
+
+For the default location you can use the example below:
+
+```
+cp ~/go/bin/nibid $DAEMON_HOME/cosmovisor/genesis/bin
+```
+
+5. Create upgrade directory and put `v0.10.0` binary there so Cosmovisor could switch it at the upgrade height:
+
+```
+mkdir -p ~/.nibid/cosmovisor/upgrades/v0.10.0/bin
+cd ~/nibiru
+git pull
+git fetch --tags
+git checkout v0.10.0
+make build
+cp ~/nibiru/build/nibid ~/.nibid/cosmovisor/upgrades/v0.10.0/bin/nibid
+```
+
+6. Create the service for the Cosmovisor
+
+```
+sudo tee /etc/systemd/system/cosmovisor-nibiru<<EOF
+[Unit]
+Description=Cosmovisor for Nibiru Node
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+Type=exec
+User=<your_user>
+Group=<your_user_group>
+ExecStart=/home/<your_user>/go/bin/cosmovisor run start --home /home/<your_user>/.nibid
+Restart=on-failure
+RestartSec=3
+Environment="DAEMON_NAME=nibid"
+Environment="DAEMON_HOME=/home/<your_user>/.nibid"
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
+Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
+Environment="DAEMON_LOG_BUFFER_SIZE=512"
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+Enable the service:
+
+```
+sudo systemctl daemon-reload
+sudo systemctl enable cosmovisor-nibiru
+```
+
 ## Create Nibiru-1 Testnet validator
 
 1. Init Chain and start your node
@@ -131,24 +214,40 @@ sudo systemctl enable nibiru
 
 5. Set gas prices
 
-```
-sudo nano $HOME/.nibid/config/app.toml
-# recommended to set to "0.025unibi"
-```
+   ```
+   sudo nano $HOME/.nibid/config/app.toml
+   # recommended to set to "0.025unibi"
+   ```
 
-6. Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it. Make sure it synced up to the tip.
+6. Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it or `sudo systemctl start cosmovisor-nibiru` if you've installed cosmovisor for it.
 
-7. Request tokens from the [Web Faucet for Nibiru-1 Testnet](http://ec2-35-172-193-127.compute-1.amazonaws.com:8003/) if required.
+7. Update the binary when the chain reaches upgrade height (not required for Cosmovisor setup)  
+   Your node is going to stop syncing the blocks at height 98640. You will see the error message in the logs like `ERR UPGRADE "v0.10.0" NEEDED at height: 98640:`  
+   Stop your nibid binary or its service, if you've configured one.  
+   Open the folder with the Nibiru git ($HOME/nibiru by default) and update the binary  
 
-Example:
-```bash
-curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' http://ec2-35-172-193-127.compute-1.amazonaws.com:8003
-```
-Please note, that current Testnet Web Faucet limit is `10000000unibi`.
+   ```
+   git pull
+   git fetch --tags
+   git checkout v0.10.0
+   make install
+   ```
+   Launch your binary or service again and confirm it is further syncing the blocks with `nibid status 2>&1 | jq .`
 
-You can also use Testnet Discord Faucet in the Nibiru Chain server (#faucet channel).
 
-8. Create validator
+8. Request tokens from the [Web Faucet for Nibiru-1 Testnet](http://ec2-35-172-193-127.compute-1.amazonaws.com:8003/) if required.
+
+   Example:
+   ```bash
+   curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' http://ec2-35-172-193-127.compute-1.amazonaws.com:8003
+   ```
+   Please note, that current Testnet Web Faucet limit is `10000000unibi`.
+
+   You can also use Testnet Discord Faucet in the Nibiru Chain server (#faucet channel).
+
+9. Create validator 
+
+   Make sure you have the chain synced!
 
    ```bash
    nibid tx staking create-validator \
@@ -165,4 +264,4 @@ You can also use Testnet Discord Faucet in the Nibiru Chain server (#faucet chan
    --from <key-name>
    ```
 
-8. Verify your validator status via [Nibiru-1 Testnet Block Explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
+10. Verify your validator status via [Nibiru-1 Testnet Block Explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
