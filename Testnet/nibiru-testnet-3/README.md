@@ -93,7 +93,7 @@ sudo systemctl enable nibiru
 ```
 git clone https://github.com/cosmos/cosmos-sdk
 cd cosmos-sdk
-git checkout cosmovisor/v1.1.0
+git checkout cosmovisor/v1.2.0
 make cosmovisor
 cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
 cd $HOME
@@ -171,7 +171,7 @@ sudo systemctl enable cosmovisor-nibiru
 
 ## Create a Testnet Validator
 
-1. Init Chain and start your node
+1. Init the chain
 
    ```bash
    nibid init <moniker-name> --chain-id=nibiru-testnet-3 --home $HOME/.nibid
