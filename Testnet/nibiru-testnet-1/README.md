@@ -224,12 +224,12 @@ nibid version
 
 7. Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it or `sudo systemctl start cosmovisor-nibiru` if you've installed cosmovisor for it.
 
-8. Request tokens from the [Web Faucet for nibiru-testnet-1](http://ec2-35-172-193-127.compute-1.amazonaws.com:8003/) if required.
+8. Request tokens from the [Web Faucet for nibiru-testnet-1](https://faucet.testnet-1.nibiru.fi/) if required.
 
    Example:
 
    ```bash
-   curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' http://ec2-35-172-193-127.compute-1.amazonaws.com:8003
+   curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' https://faucet.testnet-1.nibiru.fi/
    ```
 
    Please note, that current Testnet Web Faucet limit is `10000000unibi`.
@@ -255,4 +255,4 @@ nibid version
    --from <key-name>
    ```
 
-11. Verify your validator status via [nibiru-testnet-1 block explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
+11. Verify your validator status via [nibiru-testnet-1 block explorer](https://explorer.testnet-1.nibiru.fi/)
