@@ -209,9 +209,22 @@ nibid version
    # recommended to set to "0.025unibi"
    ```
 
-6. Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it or `sudo systemctl start cosmovisor-nibiru` if you've installed cosmovisor for it.
+6. Update block time parameters
 
-7. Request tokens from the [Web Faucet for nibiru-testnet-1](http://ec2-35-172-193-127.compute-1.amazonaws.com:8003/) if required.
+   ```bash
+    sed -i 's/timeout_propose =.*/timeout_propose = "100ms"/g' $HOME/.nibid/config/config.toml
+    sed -i 's/timeout_propose_delta =.*/timeout_propose_delta = "500ms"/g' $HOME/.nibid/config/config.toml
+    sed -i 's/timeout_prevote =.*/timeout_prevote = "100ms"/g' $HOME/.nibid/config/config.toml
+    sed -i 's/timeout_prevote_delta =.*/timeout_prevote_delta = "500ms"/g' $HOME/.nibid/config/config.toml
+    sed -i 's/timeout_precommit =.*/timeout_precommit = "100ms"/g' $HOME/.nibid/config/config.toml
+    sed -i 's/timeout_precommit_delta =.*/timeout_precommit_delta = "500ms"/g' $HOME/.nibid/config/config.toml
+    sed -i 's/timeout_commit =.*/timeout_commit = "1s"/g' $HOME/.nibid/config/config.toml
+    sed -i 's/skip_timeout_commit =.*/skip_timeout_commit = false/g' $HOME/.nibid/config/config.toml
+   ```
+
+7. Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it or `sudo systemctl start cosmovisor-nibiru` if you've installed cosmovisor for it.
+
+8. Request tokens from the [Web Faucet for nibiru-testnet-1](http://ec2-35-172-193-127.compute-1.amazonaws.com:8003/) if required.
 
    Example:
 
@@ -223,7 +236,7 @@ nibid version
 
    You can also use Testnet Discord Faucet in the Nibiru Chain server (#faucet channel).
 
-8. Create validator
+9. Create validator
 
    Make sure you have the chain synced!
 
@@ -242,4 +255,4 @@ nibid version
    --from <key-name>
    ```
 
-9. Verify your validator status via [nibiru-testnet-1 block explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
+11. Verify your validator status via [nibiru-testnet-1 block explorer](http://ec2-54-221-169-63.compute-1.amazonaws.com:3003/validators)
