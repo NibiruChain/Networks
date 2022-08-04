@@ -184,10 +184,8 @@ nibid version
 
    ```bash
     shasum -a 256 $HOME/.nibid/config/genesis.json
-    5c881b95bfa735cb3f60513910f9c8035a6888933b4d2cea89fa0ef69351134c  /home/<user>/.nibid/config/genesis.json
+    a41704a1b1210bbccd7bd8620a2e2ac6c87b414d9750e4a3d150bb4c800c2994  /home/<user>/.nibid/config/genesis.json
    ```
-
-   Or copy the genesis file included in the archive received from the Nibiru Team to the `$HOME/.nibid/config` folder
 
 4. Update persistent peers list in the configuration file $HOME/.nibid/config/config.toml with the ones from the persistent_peers.txt
 
@@ -196,17 +194,10 @@ nibid version
    export PEERS=$(cat persistent_peers.txt| tr '\n' '_' | sed 's/_/,/g;s/,$//;s/^/"/;s/$/"/') && sed -i "s/persistent_peers = \"\"/persistent_peers = ${PEERS}/g" $HOME/.nibid/config/config.toml
    ```
 
-   or navigate to the directory with the `persistent_peers.txt`file you've received from the Nibiru team manually and run
+5. Set minimum gas prices
 
    ```bash
-   export PEERS=$(cat persistent_peers.txt| tr '\n' '_' | sed 's/_/,/g;s/,$//;s/^/"/;s/$/"/') && sed -i "s/persistent_peers = \"\"/persistent_peers = ${PEERS}/g" $HOME/.nibid/config/config.toml
-   ```
-
-5. Set gas prices
-
-   ```bash
-   sudo nano $HOME/.nibid/config/app.toml
-   # recommended to set to "0.025unibi"
+   sed -i 's/minimum-gas-prices =.*/minimum-gas-prices = "0.025unibi"/g' $HOME/.nibid/config/app.toml
    ```
 
 6. Update block time parameters
@@ -225,8 +216,6 @@ nibid version
 7. Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it or `sudo systemctl start cosmovisor-nibiru` if you've installed cosmovisor for it.
 
 8. Request tokens from the [Web Faucet for nibiru-testnet-1](https://faucet.testnet-1.nibiru.fi/) if required.
-
-   Example:
 
    ```bash
    curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' https://faucet.testnet-1.nibiru.fi/
@@ -255,4 +244,4 @@ nibid version
    --from <key-name>
    ```
 
-11. Verify your validator status via [nibiru-testnet-1 block explorer](https://explorer.testnet-1.nibiru.fi/)
+10. Verify your validator status via [nibiru-testnet-1 block explorer](https://explorer.testnet-1.nibiru.fi/)
