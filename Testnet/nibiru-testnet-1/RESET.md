@@ -1,4 +1,4 @@
-# Nibiru-1 Testnet Instructions for validators to rebuild validator in case of chain reset
+# nibiru-tesnet-1 Instructions for validators to rebuild validator in case of chain reset
 
   Any upcoming resets are going to be announced in the Nibiru Chain Discord server (`#testnet` channel).  
   To rejoin the testnet, please follow the steps below:
@@ -18,15 +18,16 @@
   cd nibiru
   git pull
   git fetch --tags
-  git checkout <version>
+  git checkout v0.12.0
   make install
   ```
-  Verify the binary version by running 
+
+  Verify the binary version by running
   
   ```bash
   nibid version
   ```
- 
+
 ## 3. Recreate the validator
 
-Follow the same steps [from the README.md manual](https://github.com/NibiruChain/Networks/blob/main/Testnet/Nibiru-testnet-1/README.md#create-nibiru-1-testnet-validator) again
+Follow the same steps [from the README.md manual](README.md#create-nibiru-1-testnet-validator) again

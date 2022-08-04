@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-07-14T23:37:35.154102213Z",
-  "chain_id": "nibiru-testnet-3",
+  "genesis_time": "2022-08-03T22:19:43.021074658Z",
+  "chain_id": "nibiru-testnet-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -33,21 +33,28 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1ft4s3a7cg0zmqzepamv68vk96cj8yxvtks2lzz",
+          "address": "nibi12xzdh909q5hedmrxx66p0qwkhx848mfufgsx03",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1edvjqmd49r8jwgczr0fruhus3yd3c49gpmqcnd",
+          "address": "nibi1atnpff2h7kr9m6md0hhccy2v65w69w9mracfl7",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1qdh64rh5kfvm6qahu7gc40c5kqp5dcnyj0wgzd",
+          "address": "nibi1ufkdryn90lq9hqnuzyejt3kh8vuekv3pydw6x3",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi12eejxdslzaunqrjx4gepqwgu48wuudlltard6e",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -61,7 +68,42 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi12eejxdslzaunqrjx4gepqwgu48wuudlltard6e",
+          "address": "nibi1hk04vteklhmtwe0zpt7023p5zcgu49e5v3atyp",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi10hj3gq54uxd9l5d6a7sn4dcvhd0l3wdgt2zvyp",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi1r8gjajmlp9tkff0759rmujv568pa7q6v7u4m3z",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi1ef8j88drt3kqe0zdfyqxgdxqgqrqguwnkefn0n",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi1sk6jum8uljpnntz6snmelvzztaflhetuaklfsc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -78,7 +120,7 @@
       },
       "balances": [
         {
-          "address": "nibi1qdh64rh5kfvm6qahu7gc40c5kqp5dcnyj0wgzd",
+          "address": "nibi1r8gjajmlp9tkff0759rmujv568pa7q6v7u4m3z",
           "coins": [
             {
               "denom": "unibi",
@@ -92,11 +134,28 @@
             {
               "denom": "unibi",
               "amount": "100000000000"
+            },
+            {
+              "denom": "unusd",
+              "amount": "1000000000000000"
             }
           ]
         },
         {
-          "address": "nibi1ft4s3a7cg0zmqzepamv68vk96cj8yxvtks2lzz",
+          "address": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "1000000000000"
+            },
+            {
+              "denom": "unusd",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi12xzdh909q5hedmrxx66p0qwkhx848mfufgsx03",
           "coins": [
             {
               "denom": "unibi",
@@ -110,11 +169,64 @@
             {
               "denom": "unibi",
               "amount": "100000000000"
+            },
+            {
+              "denom": "unusd",
+              "amount": "1000000000000000"
             }
           ]
         },
         {
-          "address": "nibi1edvjqmd49r8jwgczr0fruhus3yd3c49gpmqcnd",
+          "address": "nibi10hj3gq54uxd9l5d6a7sn4dcvhd0l3wdgt2zvyp",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi1sk6jum8uljpnntz6snmelvzztaflhetuaklfsc",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "10000000000"
+            },
+            {
+              "denom": "unusd",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi1hk04vteklhmtwe0zpt7023p5zcgu49e5v3atyp",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi1ef8j88drt3kqe0zdfyqxgdxqgqrqguwnkefn0n",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi1ufkdryn90lq9hqnuzyejt3kh8vuekv3pydw6x3",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi1atnpff2h7kr9m6md0hhccy2v65w69w9mracfl7",
           "coins": [
             {
               "denom": "unibi",
@@ -126,7 +238,11 @@
       "supply": [
         {
           "denom": "unibi",
-          "amount": "500000000000"
+          "amount": "1910000000000"
+        },
+        {
+          "denom": "unusd",
+          "amount": "2002000000000000"
         }
       ],
       "denom_metadata": []
@@ -143,7 +259,7 @@
     },
     "dex": {
       "params": {
-        "startingPoolNumber": "1",
+        "starting_pool_number": "1",
         "pool_creation_fee": [
           {
             "denom": "unibi",
@@ -153,8 +269,7 @@
         "whitelisted_asset": [
           "unibi",
           "uusdc",
-          "unusd",
-          "unibi"
+          "unusd"
         ]
       }
     },
@@ -231,7 +346,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "nibiru-0",
+                  "moniker": "nibiru-1",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -243,11 +358,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nibi1ft4s3a7cg0zmqzepamv68vk96cj8yxvtks2lzz",
-                "validator_address": "nibivaloper1ft4s3a7cg0zmqzepamv68vk96cj8yxvtltyykl",
+                "delegator_address": "nibi1atnpff2h7kr9m6md0hhccy2v65w69w9mracfl7",
+                "validator_address": "nibivaloper1atnpff2h7kr9m6md0hhccy2v65w69w9m2xkjtr",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "AeCHOEdb15eOlaHoBc5fkxvU6xqvOqUt9daYmOknSFs="
+                  "key": "NyRPTIp9/nHfPtgKC/7aK4xnAveCK8/2XOremwBLmgE="
                 },
                 "value": {
                   "denom": "unibi",
@@ -255,7 +370,7 @@
                 }
               }
             ],
-            "memo": "99eec816d46915d3371228f4e9be83975c6b5fdc@172.31.18.193:26656",
+            "memo": "89918b43683e056f4848181ab8741d53cd6641da@10.142.0.28:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -265,7 +380,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AnXMEt2TD5T1Or/6jNw9IqS/ku6VAoUB7CzCAiBYTJlE"
+                  "key": "Aytdb+pWu0yMs5uxRuIjWlb5xViuhGvfJlRzVe9cvaHH"
                 },
                 "mode_info": {
                   "single": {
@@ -283,7 +398,68 @@
             }
           },
           "signatures": [
-            "DgsgjYOhGa1lUcSWWhInUbsQEsqIn+fwXHzdRhtf05IVTpM7O9fz0gK18RkF3DLNN1QISXl2V9ImJmTJS9jQfQ=="
+            "IHlTyqjvLRcb4XWdz+y1u0vzQWNunAQmpddYaZq8j+YdP+fFGrB4OuYoRhtX6ZAuimHE8Crw8M6q2d95I3S8RQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "nibiru-0",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi12xzdh909q5hedmrxx66p0qwkhx848mfufgsx03",
+                "validator_address": "nibivaloper12xzdh909q5hedmrxx66p0qwkhx848mfuqn7amv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "KNw4cUIK7nC2K/Wt1EB8BawOkjOwqM94dn4EqSXIJP0="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "10000000"
+                }
+              }
+            ],
+            "memo": "98ccac296f8c06dc20f8e0f7fa40f1853e2b9d9f@10.142.0.26:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtDLOr6dkZgGOD3wDfJ/dTvzNDKWMvSORcRwyKet3cUj"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "nh3wMIMR7rqgmL5Gt9ybyYPHyPz42RrBYCF/2jbx7fYSj3QR1HpPZzJzVtuZTSCldmAx74OtqjuAHjLAQMNkEw=="
           ]
         },
         {
@@ -304,11 +480,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nibi1qdh64rh5kfvm6qahu7gc40c5kqp5dcnyj0wgzd",
-                "validator_address": "nibivaloper1qdh64rh5kfvm6qahu7gc40c5kqp5dcnym5qnks",
+                "delegator_address": "nibi1ufkdryn90lq9hqnuzyejt3kh8vuekv3pydw6x3",
+                "validator_address": "nibivaloper1ufkdryn90lq9hqnuzyejt3kh8vuekv3pdkqpjv",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "vSzo6irsj2zkUNuZ5SIh92U01aLAaW7qM7llIg64Zkg="
+                  "key": "5FuxYmfHc3NQs3Adl6te6+3V4O0laGlmeDMuGbVuo1I="
                 },
                 "value": {
                   "denom": "unibi",
@@ -316,7 +492,7 @@
                 }
               }
             ],
-            "memo": "b73039d8207740a56bdd7d787546a95b9c65842b@172.31.17.58:26656",
+            "memo": "f4507c45d5579f84d349151e12fcc7c8f0be43e2@10.142.0.27:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -326,7 +502,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Ahr2eLPcYJ7UWuBmTZLyEk5qPZAah+Qejx+UBjxSYatI"
+                  "key": "AugUfP8q2kLlVy/YIaQ9xAmjuX0O3YcSz0eksdkDgqIB"
                 },
                 "mode_info": {
                   "single": {
@@ -344,68 +520,7 @@
             }
           },
           "signatures": [
-            "bLIjjXYP27cUzTNbFyLn2rr6OlvH9O4Ik/5YN5sjLa5OWNxD0cBB+vlx/9BnZA9RLnOf3zV2yHTspyN92JVr8A=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "nibiru-1",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "nibi1edvjqmd49r8jwgczr0fruhus3yd3c49gpmqcnd",
-                "validator_address": "nibivaloper1edvjqmd49r8jwgczr0fruhus3yd3c49ggqwr8s",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "a0mFCP2wxhDNcYVW33k9XmUSg8riTf/VSHBwDRbboW4="
-                },
-                "value": {
-                  "denom": "unibi",
-                  "amount": "10000000"
-                }
-              }
-            ],
-            "memo": "e771784961715c8f876bebeb349a9100a0ae1dd8@172.31.25.118:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A6E8UMuyuo5mw8V/DH4ih16wS6EXebTKEecc+HjSrKyX"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "uNQ1CRdxmJX76EKBin3v7SnQOszG7gBjRkHkqfGzfPYtwHsVJZM9SF0+h7TKRnSjb+ESE66rCwvqW9vbHW0CXw=="
+            "Lj34/HYbCnqF++5w4Wwj1+h8DgVlA9aFyQNLde4dlR5i20x15GQ/mopw5FsjrRwc4HcsaETKnYsRow6/n+tvQg=="
           ]
         }
       ]
@@ -490,18 +605,36 @@
     "perp": {
       "params": {
         "stopped": false,
-        "maintenance_margin_ratio": "0.062500000000000000",
-        "fee_pool_fee_ratio": "0.001000000000000000",
-        "ecosystem_fund_fee_ratio": "0.001000000000000000",
-        "liquidation_fee_ratio": "0.025000000000000000",
-        "partial_liquidation_ratio": "0.250000000000000000",
-        "epoch_identifier": "30 min",
+        "fee_pool_fee_ratio": "0.001",
+        "ecosystem_fund_fee_ratio": "0.001",
+        "liquidation_fee_ratio": "0.025",
+        "partial_liquidation_ratio": "0.25",
+        "funding_rate_interval": "30 min",
         "twap_lookback_window": "900s"
       },
       "vault_balance": [],
       "perp_ef_balance": [],
       "fee_pool_balance": [],
-      "pair_metadata": [],
+      "pair_metadata": [
+        {
+          "pair": {
+            "token0": "ubtc",
+            "token1": "unusd"
+          },
+          "cumulative_premium_fractions": [
+            "0"
+          ]
+        },
+        {
+          "pair": {
+            "token0": "ueth",
+            "token1": "unusd"
+          },
+          "cumulative_premium_fractions": [
+            "0"
+          ]
+        }
+      ],
       "positions": [],
       "prepaid_bad_debts": [],
       "whitelisted_addresses": []
@@ -518,17 +651,22 @@
             "token1": "unusd"
           },
           {
-            "token0": "axlwbtc",
+            "token0": "ubtc",
             "token1": "unusd"
           },
           {
-            "token0": "axlweth",
+            "token0": "ueth",
             "token1": "unusd"
           }
-        ]
+        ],
+        "twap_lookback_window": "900s"
       },
       "posted_prices": [],
-      "genesis_oracles": []
+      "genesis_oracles": [
+        "nibi1hk04vteklhmtwe0zpt7023p5zcgu49e5v3atyp",
+        "nibi10hj3gq54uxd9l5d6a7sn4dcvhd0l3wdgt2zvyp",
+        "nibi1r8gjajmlp9tkff0759rmujv568pa7q6v7u4m3z"
+      ]
     },
     "slashing": {
       "params": {
@@ -543,15 +681,15 @@
     },
     "stablecoin": {
       "params": {
-        "collRatio": "1000000",
-        "feeRatio": "2000",
-        "efFeeRatio": "500000",
+        "coll_ratio": "1000000",
+        "fee_ratio": "2000",
+        "ef_fee_ratio": "500000",
         "bonus_rate_recoll": "2000",
         "distr_epoch_identifier": "15 min",
-        "adjustmentStep": "2500",
-        "priceLowerBound": "999900",
-        "priceUpperBound": "1000100",
-        "isCollateralRatioValid": false
+        "adjustment_step": "2500",
+        "price_lower_bound": "999900",
+        "price_upper_bound": "1000100",
+        "is_collateral_ratio_valid": false
       },
       "module_account_balance": {
         "denom": "uusdc",
@@ -585,7 +723,32 @@
     "upgrade": {},
     "vesting": {},
     "vpool": {
-      "vpools": [],
+      "vpools": [
+        {
+          "pair": {
+            "token0": "ubtc",
+            "token1": "unusd"
+          },
+          "base_asset_reserve": "50000000000",
+          "quote_asset_reserve": "1000000000000000",
+          "trade_limit_ratio": "0.1",
+          "fluctuation_limit_ratio": "0.1",
+          "max_oracle_spread_ratio": "0.1",
+          "maintenance_margin_ratio": "0.0625"
+        },
+        {
+          "pair": {
+            "token0": "ueth",
+            "token1": "unusd"
+          },
+          "base_asset_reserve": "666666000000",
+          "quote_asset_reserve": "1000000000000000",
+          "trade_limit_ratio": "0.1",
+          "fluctuation_limit_ratio": "0.1",
+          "max_oracle_spread_ratio": "0.1",
+          "maintenance_margin_ratio": "0.0625"
+        }
+      ],
       "params": {}
     }
   }
