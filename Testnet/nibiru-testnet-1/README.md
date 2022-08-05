@@ -35,7 +35,7 @@ After the installation open a new terminal to properly load go or run `source $H
 cd $HOME
 git clone https://github.com/NibiruChain/nibiru && cd nibiru
 git fetch --tags
-git checkout v0.12.0
+git checkout v0.12.1
 ```
 
 or extract the archive received from the Nibiru team.
@@ -46,7 +46,7 @@ In this repository, run
 make install
 ```
 
-Verify the binary version (should be `v0.12.0`):
+Verify the binary version (should be `v0.12.1`):
 
 ```bash
 nibid version
@@ -116,7 +116,7 @@ nibid version
    mkdir -p $DAEMON_HOME/cosmovisor/upgrades
    ```
 
-4. Add the genesis version of the binary (currently it is `0.12.0` version). You can verify your binary location with `which nibid` command. For the default location you can use the example below:
+4. Add the genesis version of the binary (currently it is `0.12.1` version). You can verify your binary location with `which nibid` command. For the default location you can use the example below:
 
    ```bash
    cp ~/go/bin/nibid $DAEMON_HOME/cosmovisor/genesis/bin
