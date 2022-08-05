@@ -18,7 +18,7 @@
   cd nibiru
   git pull
   git fetch --tags
-  git checkout v0.12.0
+  git checkout v0.12.1
   make install
   ```
 
