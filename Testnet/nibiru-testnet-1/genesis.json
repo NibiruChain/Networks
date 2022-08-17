@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-08-04T19:26:09.995805345Z",
+  "genesis_time": "2022-08-17T14:32:36.974969019Z",
   "chain_id": "nibiru-testnet-1",
   "initial_height": "1",
   "consensus_params": {
@@ -245,7 +245,29 @@
           "amount": "2002000000000000"
         }
       ],
-      "denom_metadata": []
+      "denom_metadata": [
+        {
+          "description": "The native staking token of the Nibiru network.",
+          "denom_units": [
+            {
+              "denom": "unibi",
+              "exponent": 0,
+              "aliases": [
+                "micronibi"
+              ]
+            },
+            {
+              "denom": "NIBI",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "unibi",
+          "display": "NIBI",
+          "name": "NIBI",
+          "symbol": "NIBI"
+        }
+      ]
     },
     "capability": {
       "index": "1",
@@ -255,22 +277,6 @@
       "constant_fee": {
         "denom": "unibi",
         "amount": "1000"
-      }
-    },
-    "dex": {
-      "params": {
-        "starting_pool_number": "1",
-        "pool_creation_fee": [
-          {
-            "denom": "unibi",
-            "amount": "1000000000"
-          }
-        ],
-        "whitelisted_asset": [
-          "unibi",
-          "uusdc",
-          "unusd"
-        ]
       }
     },
     "distribution": {
@@ -370,7 +376,7 @@
                 }
               }
             ],
-            "memo": "23d166920f05f48df6fec76d130c18f2c0c3f9c4@10.142.0.29:26656",
+            "memo": "23d166920f05f48df6fec76d130c18f2c0c3f9c4@10.142.0.39:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -398,7 +404,7 @@
             }
           },
           "signatures": [
-            "NwLu9L1Kdm8BQ+lKHRqDSa7xmnTzY/Uzi9FcpJbUgv02IiyVddhDO14Qkm3CEBSHosFbW9YABsTuhLn6Ld0T2Q=="
+            "ymBVdYC1KyqsecDLZG0N+QVc/VUSduucL4VcLO6zaA9Xdc+VY+7a/V7OO/LAyvlYM5VqRlGLE8yDXZDhW+x8Xw=="
           ]
         },
         {
@@ -431,7 +437,7 @@
                 }
               }
             ],
-            "memo": "49136d1dbaf37746f7c62527e5b6a058df24e41e@10.142.0.31:26656",
+            "memo": "49136d1dbaf37746f7c62527e5b6a058df24e41e@10.142.0.37:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -459,7 +465,7 @@
             }
           },
           "signatures": [
-            "6x7D5y3+fgCoLxsbgUi/vdbNguYat0j7n9wIEPmsK35phaScNQ259SiMyfJOyxSWPJL/MMVONJgw/xLl3pZJuA=="
+            "DW/4q69M0FD5kAsGErrqe4r5DeVl9yPsuYT64v+nMlw2JoLpQpRXVWAkY/S+XPhyT2eRVLBPoUw00/yDzf1E1w=="
           ]
         },
         {
@@ -492,7 +498,7 @@
                 }
               }
             ],
-            "memo": "e7d10344683a8bff1da51356518bace9307fe75e@10.142.0.30:26656",
+            "memo": "e7d10344683a8bff1da51356518bace9307fe75e@10.142.0.38:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -520,7 +526,7 @@
             }
           },
           "signatures": [
-            "+BO1x2TOyABIbOVL7nONBx+0lqUSL1LPT2vqT8/hvBpm7VzLBvAev0WnvCoLE5WGGa4RKQClxedVS5LZSN9YUg=="
+            "dLSWhOkVOA1aMia9o6B2eAL+QbfBUsLlV5evpW3S22o6xFhacLI/pcIXq7ibI8SC1D2uthuw0Our0Hp5bB1X9g=="
           ]
         }
       ]
@@ -580,12 +586,6 @@
         "ack_sequences": [],
         "next_channel_sequence": "0"
       }
-    },
-    "incentivization": {
-      "incentivization_programs": []
-    },
-    "lockup": {
-      "locks": []
     },
     "mint": {
       "minter": {
@@ -678,23 +678,6 @@
       },
       "signing_infos": [],
       "missed_blocks": []
-    },
-    "stablecoin": {
-      "params": {
-        "coll_ratio": "1000000",
-        "fee_ratio": "2000",
-        "ef_fee_ratio": "500000",
-        "bonus_rate_recoll": "2000",
-        "distr_epoch_identifier": "15 min",
-        "adjustment_step": "2500",
-        "price_lower_bound": "999900",
-        "price_upper_bound": "1000100",
-        "is_collateral_ratio_valid": false
-      },
-      "module_account_balance": {
-        "denom": "uusdc",
-        "amount": "0"
-      }
     },
     "staking": {
       "params": {
