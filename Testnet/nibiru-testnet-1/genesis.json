@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-08-17T14:32:36.974969019Z",
-  "chain_id": "nibiru-testnet-1",
+  "genesis_time": "2022-08-17T18:34:33.838665159Z",
+  "chain_id": "nibiru-testnet-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -33,21 +33,21 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1gxeff59x6x7tpcxjhlchh7ufjx3xfn2jdpnn8j",
+          "address": "nibi1jpp3qrwn2vquzfzjnwa0q68mddsu0s0h2flqcy",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi19gmdwd6q0aputxmjm9cw5veq2dcm3cz57u9zea",
+          "address": "nibi18ast25mp29vp0d4h4tand0lekxjfzyme4lrgt7",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi165xkps4kdf2jn3knjpv723j4evrdwtnwhtnmdp",
+          "address": "nibi10v4p5p6wtrxfxxazk0g5cfmph0vtr35m7kgzuf",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -129,15 +129,6 @@
           ]
         },
         {
-          "address": "nibi19gmdwd6q0aputxmjm9cw5veq2dcm3cz57u9zea",
-          "coins": [
-            {
-              "denom": "unibi",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
           "address": "nibi1x9tym6ah8lzrnmzvv33pwmz9jeqd6ucd69kemr",
           "coins": [
             {
@@ -151,7 +142,7 @@
           ]
         },
         {
-          "address": "nibi1gxeff59x6x7tpcxjhlchh7ufjx3xfn2jdpnn8j",
+          "address": "nibi18ast25mp29vp0d4h4tand0lekxjfzyme4lrgt7",
           "coins": [
             {
               "denom": "unibi",
@@ -186,6 +177,15 @@
           ]
         },
         {
+          "address": "nibi10v4p5p6wtrxfxxazk0g5cfmph0vtr35m7kgzuf",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
           "address": "nibi10hj3gq54uxd9l5d6a7sn4dcvhd0l3wdgt2zvyp",
           "coins": [
             {
@@ -208,6 +208,15 @@
           ]
         },
         {
+          "address": "nibi1jpp3qrwn2vquzfzjnwa0q68mddsu0s0h2flqcy",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
           "address": "nibi1hk04vteklhmtwe0zpt7023p5zcgu49e5v3atyp",
           "coins": [
             {
@@ -218,15 +227,6 @@
         },
         {
           "address": "nibi1ef8j88drt3kqe0zdfyqxgdxqgqrqguwnkefn0n",
-          "coins": [
-            {
-              "denom": "unibi",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
-          "address": "nibi165xkps4kdf2jn3knjpv723j4evrdwtnwhtnmdp",
           "coins": [
             {
               "denom": "unibi",
@@ -352,7 +352,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "nibiru-2",
+                  "moniker": "nibiru-0",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -364,11 +364,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nibi165xkps4kdf2jn3knjpv723j4evrdwtnwhtnmdp",
-                "validator_address": "nibivaloper165xkps4kdf2jn3knjpv723j4evrdwtnw7saqeu",
+                "delegator_address": "nibi1jpp3qrwn2vquzfzjnwa0q68mddsu0s0h2flqcy",
+                "validator_address": "nibivaloper1jpp3qrwn2vquzfzjnwa0q68mddsu0s0hrj3mve",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "cUS6GSSyFafrrpzGK5ZOBbt1vevo9CRmfciguvi/JUE="
+                  "key": "tvQXWY4CiCNGUILcTiNKGt4vLPYsGyD6VnstfVACcd0="
                 },
                 "value": {
                   "denom": "unibi",
@@ -376,7 +376,7 @@
                 }
               }
             ],
-            "memo": "23d166920f05f48df6fec76d130c18f2c0c3f9c4@10.142.0.39:26656",
+            "memo": "3f8eb283e62ce2e4b1380eca988cab60114db0fd@10.142.0.41:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -386,7 +386,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A78cit9H7db8ktF2kuNxAP89jy29sDc0QUVQ7ZX4ysRk"
+                  "key": "AyICpitzTGvkbWZh/ndXse9xe/QUMpD+lEAdLJR/nby6"
                 },
                 "mode_info": {
                   "single": {
@@ -404,7 +404,7 @@
             }
           },
           "signatures": [
-            "ymBVdYC1KyqsecDLZG0N+QVc/VUSduucL4VcLO6zaA9Xdc+VY+7a/V7OO/LAyvlYM5VqRlGLE8yDXZDhW+x8Xw=="
+            "3aGeuCfUUvyaEIRWJkrj0Z/A32r0qUIOowHvWMWl0bt6pgaxzV31bPHOgpzZgVcq7YBL+txhVAo3FOnzGWJfsw=="
           ]
         },
         {
@@ -425,11 +425,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nibi19gmdwd6q0aputxmjm9cw5veq2dcm3cz57u9zea",
-                "validator_address": "nibivaloper19gmdwd6q0aputxmjm9cw5veq2dcm3cz5h8tedq",
+                "delegator_address": "nibi18ast25mp29vp0d4h4tand0lekxjfzyme4lrgt7",
+                "validator_address": "nibivaloper18ast25mp29vp0d4h4tand0lekxjfzymeuydnlr",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "ombnzwvrNH3wAp664aHcCgXDUgzdeRzcYahT9wkPYik="
+                  "key": "9Moc68pglszcS8lkLIZcUQ/R08ahV2pI1T50XqQCt1E="
                 },
                 "value": {
                   "denom": "unibi",
@@ -437,7 +437,7 @@
                 }
               }
             ],
-            "memo": "49136d1dbaf37746f7c62527e5b6a058df24e41e@10.142.0.37:26656",
+            "memo": "6dd2b9f4581d9e8fdd8f354e95d5295ef6172b76@10.142.0.42:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -447,7 +447,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AxkQYyOK+Da/DeVz6wvZOAFdekPbhRR4V8x4Gxq/W2sf"
+                  "key": "A4ne4TYEmC+OX/IcnlUCVwgHyJrT38QNSt7jp9S379x9"
                 },
                 "mode_info": {
                   "single": {
@@ -465,7 +465,7 @@
             }
           },
           "signatures": [
-            "DW/4q69M0FD5kAsGErrqe4r5DeVl9yPsuYT64v+nMlw2JoLpQpRXVWAkY/S+XPhyT2eRVLBPoUw00/yDzf1E1w=="
+            "fspXMsGXeWifPjRmWYLq9InQfsSlOCICSFp7PYUaUdteXWuHI095Zq/jrKlaG2Aijdb0Ax7RahxnTbmhBGHnFQ=="
           ]
         },
         {
@@ -474,7 +474,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "nibiru-0",
+                  "moniker": "nibiru-2",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -486,11 +486,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nibi1gxeff59x6x7tpcxjhlchh7ufjx3xfn2jdpnn8j",
-                "validator_address": "nibivaloper1gxeff59x6x7tpcxjhlchh7ufjx3xfn2jy6agn0",
+                "delegator_address": "nibi10v4p5p6wtrxfxxazk0g5cfmph0vtr35m7kgzuf",
+                "validator_address": "nibivaloper10v4p5p6wtrxfxxazk0g5cfmph0vtr35mhdxeg5",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "aCA2SZmmyOacoK+hccNGWH/4oU4V8h8f7LvcBEY8ubg="
+                  "key": "+OK2kU+WoSE+uLoa5yzjkRvFxyvPz4Boa5r86KOvCJ0="
                 },
                 "value": {
                   "denom": "unibi",
@@ -498,7 +498,7 @@
                 }
               }
             ],
-            "memo": "e7d10344683a8bff1da51356518bace9307fe75e@10.142.0.38:26656",
+            "memo": "d51d0e256d4c9642386127ef31eb9a8954e3c577@10.142.0.40:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -508,7 +508,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AyV0JAAE19Nb5iIKhe+VOCej1g4rg3PEd7REue3ZWh4o"
+                  "key": "AmiAcESGuRjEqxR2FLInzwjAldsv6phVGbmYm9w40t1p"
                 },
                 "mode_info": {
                   "single": {
@@ -526,7 +526,7 @@
             }
           },
           "signatures": [
-            "dLSWhOkVOA1aMia9o6B2eAL+QbfBUsLlV5evpW3S22o6xFhacLI/pcIXq7ibI8SC1D2uthuw0Our0Hp5bB1X9g=="
+            "NSaDjYIyVRjOP+0Z9hw6kMhw4qHjBx81wL7y4haK5qxMa0li+Z/R2Xlop5gfbDAcqo1v5hUXFlBPUj8whF3mAw=="
           ]
         }
       ]

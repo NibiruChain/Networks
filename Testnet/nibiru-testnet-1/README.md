@@ -35,7 +35,7 @@ After the installation open a new terminal to properly load go or run `source $H
 cd $HOME
 git clone https://github.com/NibiruChain/nibiru && cd nibiru
 git fetch --tags
-git checkout v0.12.1
+git checkout v0.13.0
 ```
 
 or extract the archive received from the Nibiru team.
@@ -46,7 +46,7 @@ In this repository, run
 make install
 ```
 
-Verify the binary version (should be `v0.12.1`):
+Verify the binary version (should be `v0.13.0`):
 
 ```bash
 nibid version
@@ -116,7 +116,7 @@ nibid version
    mkdir -p $DAEMON_HOME/cosmovisor/upgrades
    ```
 
-4. Add the genesis version of the binary (currently it is `0.12.1` version). You can verify your binary location with `which nibid` command. For the default location you can use the example below:
+4. Add the genesis version of the binary (currently it is `0.13.0` version). You can verify your binary location with `which nibid` command. For the default location you can use the example below:
 
    ```bash
    cp ~/go/bin/nibid $DAEMON_HOME/cosmovisor/genesis/bin
@@ -162,7 +162,7 @@ nibid version
 1. Init the chain
 
    ```bash
-   nibid init <moniker-name> --chain-id=nibiru-testnet-1 --home $HOME/.nibid
+   nibid init <moniker-name> --chain-id=nibiru-testnet-2 --home $HOME/.nibid
    ```
 
 2. Create a local key pair
@@ -184,7 +184,7 @@ nibid version
 
    ```bash
     shasum -a 256 $HOME/.nibid/config/genesis.json
-    a41704a1b1210bbccd7bd8620a2e2ac6c87b414d9750e4a3d150bb4c800c2994  /home/<user>/.nibid/config/genesis.json
+    5f679d3adb69a6ff6be9075798623f7288eabb948199f012250659f80aaa531e  /home/<user>/.nibid/config/genesis.json
    ```
 
 4. Update persistent peers list in the configuration file $HOME/.nibid/config/config.toml with the ones from the persistent_peers.txt
@@ -215,10 +215,10 @@ nibid version
 
 7. Start your node with  `nibid start` or `sudo systemctl start nibiru` if you've created a service for it or `sudo systemctl start cosmovisor-nibiru` if you've installed cosmovisor for it.
 
-8. Request tokens from the [Web Faucet for nibiru-testnet-1](https://faucet.testnet-1.nibiru.fi/) if required.
+8. Request tokens from the [Web Faucet for nibiru-testnet-2](https://faucet.testnet-2.nibiru.fi/) if required.
 
    ```bash
-   curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' https://faucet.testnet-1.nibiru.fi/
+   curl -X POST -d '{"address": "your address here", "coins": ["10000000unibi"]}' https://faucet.testnet-2.nibiru.fi/
    ```
 
    Please note, that current Testnet Web Faucet limit is `10000000unibi`.
@@ -239,9 +239,9 @@ nibid version
    --details "put your validator description there" \
    --pubkey=$(nibid tendermint show-validator) \
    --moniker <your_moniker> \
-   --chain-id nibiru-testnet-1 \
+   --chain-id nibiru-testnet-2 \
    --gas-prices 0.025unibi \
    --from <key-name>
    ```
 
-10. Verify your validator status via [nibiru-testnet-1 block explorer](https://explorer.testnet-1.nibiru.fi/)
+10. Verify your validator status via [nibiru-testnet-2 block explorer](https://explorer.testnet-2.nibiru.fi/)
