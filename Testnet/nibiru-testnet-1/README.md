@@ -184,7 +184,7 @@ nibid version
 
    ```bash
     shasum -a 256 $HOME/.nibid/config/genesis.json
-    5f679d3adb69a6ff6be9075798623f7288eabb948199f012250659f80aaa531e  /home/<user>/.nibid/config/genesis.json
+    29a2342aeda8e111909b6deee276468b645bf9455e8702a5fe32e719fadb6124  /home/<user>/.nibid/config/genesis.json
    ```
 
 4. Update persistent peers list in the configuration file $HOME/.nibid/config/config.toml with the ones from the persistent_peers.txt
