@@ -1,4 +1,4 @@
-# nibiru-testnet-1 Instructions
+# nibiru-testnet-2 Instructions
 
 ## Minimum hardware requirements
 
@@ -177,7 +177,7 @@ nibid version
    ```bash
    cd $HOME
    git clone https://github.com/NibiruChain/Networks
-   cp $HOME/Networks/Testnet/nibiru-testnet-1/genesis.json $HOME/.nibid/config/genesis.json
+   cp $HOME/Networks/Testnet/nibiru-testnet-2/genesis.json $HOME/.nibid/config/genesis.json
    ```
 
    **Genesis.json sha256**
@@ -190,7 +190,7 @@ nibid version
 4. Update persistent peers list in the configuration file $HOME/.nibid/config/config.toml with the ones from the persistent_peers.txt
 
    ```bash
-   cd $HOME/Networks/Testnet/nibiru-testnet-1
+   cd $HOME/Networks/Testnet/nibiru-testnet-2
    export PEERS=$(cat persistent_peers.txt| tr '\n' '_' | sed 's/_/,/g;s/,$//;s/^/"/;s/$/"/') && sed -i "s/persistent_peers = \"\"/persistent_peers = ${PEERS}/g" $HOME/.nibid/config/config.toml
    ```
 
