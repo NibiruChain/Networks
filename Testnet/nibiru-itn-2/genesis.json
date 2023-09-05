@@ -1004,9 +1004,9 @@
         ],
         "slash_fraction": "0.005000000000000000",
         "slash_window": "3600",
-        "min_valid_per_window": "0.690000000000000000",
+        "min_valid_per_window": "0.200000000000000000",
         "twap_lookback_window": "900s",
-        "min_voters": "4",
+        "min_voters": "2",
         "validator_fee_ratio": "0.050000000000000000",
         "expiration_blocks": "900"
       },
