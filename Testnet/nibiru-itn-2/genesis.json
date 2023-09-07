@@ -985,7 +985,7 @@
       "params": {
         "vote_period": "30",
         "vote_threshold": "0.333333333333333333",
-        "reward_band": "0.020000000000000000",
+        "reward_band": "0.100000000000000000",
         "whitelist": [
           "unibi:unusd",
           "ubtc:unusd",
