@@ -550,10 +550,10 @@
               "address": "nibi1u0xun8ge8jjjadwmvrh62efzjm7lq5gypx7fak",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "3750000000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "15000000000000"
                 }
               }
@@ -587,10 +587,10 @@
               "address": "nibi1ygj9znfy52uejxh09unuwd3z9hd5rts7q0s2dh",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "1125000000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "4500000000000"
                 }
               }
@@ -624,10 +624,10 @@
               "address": "nibi1rph0pk664q0qa366kw9u82e2lznztqcx7knrsw",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "281250000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "3750000000000"
                 }
               }
@@ -661,10 +661,10 @@
               "address": "nibi1jk6c44yvhec4jc7vegx8clcpgw2c4ke00l79g6",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "187500000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "750000000000"
                 }
               }
@@ -698,10 +698,10 @@
               "address": "nibi1rc57pt975xn48png5g59xqjdxpdxfqa28d27e5",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "187500000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "750000000000"
                 }
               }
@@ -735,10 +735,10 @@
               "address": "nibi1dp82cysvmlla0q7hrz43scaj8g8guptgjzlmrv",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "187500000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "750000000000"
                 }
               }
@@ -772,10 +772,10 @@
               "address": "nibi1fc02g3a8wt00y72mwk5ylz0ks7c58aq44xmyrp",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "93750000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "375000000000"
                 }
               }
@@ -809,10 +809,10 @@
               "address": "nibi126pelrz0jazfxa0qcxcfx5q4yqakarzua4e49z",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1692345600",
-                  "end_time": "1694764800",
+                  "start_time": "1696204800",
+                  "end_time": "1698624000",
                   "cliff_amount": "56250000000",
-                  "cliff_time": "1692950400",
+                  "cliff_time": "1696809600",
                   "vesting_amount": "225000000000"
                 }
               }
