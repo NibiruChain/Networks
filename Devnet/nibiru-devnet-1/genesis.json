@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-10-22T21:25:12.104642Z",
+  "genesis_time": "2023-10-22T21:41:53.478509Z",
   "chain_id": "nibiru-devnet-1",
   "initial_height": "1",
   "consensus_params": {
@@ -289,7 +289,7 @@
             "admin": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn"
           },
           "funds": [],
-          "salt": "K24xYPcsdDIkkNdhOY68RvpnYOEY3GyJ/u/k43TMbWo=",
+          "salt": "T9Koo6OcS+1b69ufLgDT1sh02938BB0GaVrfXM2LB7g=",
           "fix_msg": true
         },
         {
@@ -308,7 +308,7 @@
             "admin": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn"
           },
           "funds": [],
-          "salt": "K24xYPcsdDIkkNdhOY68RvpnYOEY3GyJ/u/k43TMbWo=",
+          "salt": "T9Koo6OcS+1b69ufLgDT1sh02938BB0GaVrfXM2LB7g=",
           "fix_msg": true
         },
         {
@@ -325,23 +325,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "CM26aJKJSXWJRsdJsrP0rLmuekFVRt5wo9CYeCfqYE4=",
+          "salt": "fJFQQ4zl3lr7L9QwOwrpCjhRxWFL8BxbjlGlDrZMHjI=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1u928hd3j35q0ldnuupkdqt5yavfulz6kv5532pl4e2qk4rq30ewslg2tnq",
+          "contract": "nibi1ccdm6qymm7vs0hshuv4kvy7mknrtc9xyqu9muhuj73mrhlu7zyrsjdelte",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi1u0xun8ge8jjjadwmvrh62efzjm7lq5gypx7fak",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "3750000000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "15000000000000"
                 }
               }
@@ -362,23 +362,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "Fh/iwhfB5/5ghrjG7z7jxKpDk/JAaCxVrFjlXBLK7Xs=",
+          "salt": "csJu0TSF6EiemazEP61Je/XNNeyJV4QlE9PEMaLhxfw=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1eefjykmfusue4m45x7873d6c4al0mq37xk8xg6pg8z9ct6md07jsf5ayua",
+          "contract": "nibi1usjpq6r9xsurc6df8mwnjc4whgh8kc383wqmsv7tqwyhpta8dyxqrej99q",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi1ygj9znfy52uejxh09unuwd3z9hd5rts7q0s2dh",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "1125000000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "4500000000000"
                 }
               }
@@ -399,23 +399,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "+TdHsFYXIa0RwFDDe22jU5yj9Z0qEtEAU2K2p5LlYa8=",
+          "salt": "yLkfvAMo9kjT90JSj98pR/wEAULmr0FJSX5rTGUDMiU=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1f8s7lwfd29x5wydh6grlmlayyte7rmjcj04zk2zgtjtedm39uagsx4q6tq",
+          "contract": "nibi1pn0j0a69jgp269wd04nfcafkp5y0fzaeqd6aqfat8lqwvcest68setruwt",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi1rph0pk664q0qa366kw9u82e2lznztqcx7knrsw",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "281250000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "3750000000000"
                 }
               }
@@ -436,23 +436,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "3c3RalrGRelGz3Z3N36Pn2jdOMvu+UkBYD97bZkXT94=",
+          "salt": "8jyCO47lSxtRfM4yhZsoXfeKxy6B6h/yhlDFeRmnAyA=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1j5nawk7ckfjpfpc03qeuv9udz3epxwa90gaf4fqkh46na8ef66kql7w0gk",
+          "contract": "nibi1alxvq7r4y2aqlpf3enw662hpydjlmtuf9dvj69eymcc4gu0rx8zqvl57xj",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi1jk6c44yvhec4jc7vegx8clcpgw2c4ke00l79g6",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "187500000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "750000000000"
                 }
               }
@@ -473,23 +473,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "8WecwY8OU8KPNd+EBXmA6vZpgW/HoNesst/1PXAumPA=",
+          "salt": "XxF3XcKHR9Tp30Zw+ByyDm6IbCxqMP+Fg+1GvVZQXn8=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi19p2gmaakaan78jta5jvy94xsz9mgr4mss98gywc5enpvkh9hxlds7klekm",
+          "contract": "nibi1h8yk365849v3xvdr9l0qsqe2032dyl89wcch0q2pk6sklwtkmcms2qk7ea",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi1rc57pt975xn48png5g59xqjdxpdxfqa28d27e5",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "187500000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "750000000000"
                 }
               }
@@ -510,23 +510,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "VUqx+YRWQ6CdbujokBZsy7LHNYZCQv3jnJ2WTZIBfbI=",
+          "salt": "RZXHRefSDmt9FDRUg2AtOMvBYaQ1eW2QRWUSlS5IqW4=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1s9gywxv74f4ey7nxd9vpstap0sjtvp025shjkfa7ntwlnz7mmnlsyhlgda",
+          "contract": "nibi1zv45yxftz8qeq7qg98xw693daennj6elkmw0e2gugcu4y3n7pc4skaeunt",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi1dp82cysvmlla0q7hrz43scaj8g8guptgjzlmrv",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "187500000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "750000000000"
                 }
               }
@@ -547,23 +547,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "pf0rqgoN2H3SQrrEq50O122UfcUivGW1QCfdQobk3MM=",
+          "salt": "IiVmkBEJ6e1yxKxQwJV68Wg36+4uV8b+W4iyXj5vAzE=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1hx45wmjvzdna7ftfdedl30n9tjevy0u9x5tzx5fmpqh60syuaxsqam2mr8",
+          "contract": "nibi1az0eksa8cesgyz4knalxtdqlfl4shw8at0ea3trlq9p2k9t2hx3qtvanxf",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi1fc02g3a8wt00y72mwk5ylz0ks7c58aq44xmyrp",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "93750000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "375000000000"
                 }
               }
@@ -584,23 +584,23 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "xr8qojoUV1djRDpjVyrEzMVyJWug3IRjb+tKgFpAPZE=",
+          "salt": "jcNeoST6O2D6NZJSoW/5do4gJnf4UlfCduOoe9lCmho=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1g6qafc4er5f6suhjd84pt5qzal5xhhy482cxtl2c096a4cjp63yqhpsrte",
+          "contract": "nibi1w00v7pufz26ax3t9hg0admm5krk6ufpnlqeu0qmqagsmqdxd3v2qus3nys",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
               "address": "nibi126pelrz0jazfxa0qcxcfx5q4yqakarzua4e49z",
               "vesting_schedule": {
                 "linear_vesting_with_cliff": {
-                  "start_time": "1609480800",
-                  "end_time": "1609480800",
+                  "start_time": "1698123600",
+                  "end_time": "1700546400",
                   "cliff_amount": "56250000000",
-                  "cliff_time": "1609480800",
+                  "cliff_time": "1698728400",
                   "vesting_amount": "225000000000"
                 }
               }
@@ -639,7 +639,7 @@
                 "validator_address": "nibivaloper1m7jqj89rpqg5h49zh224eesnr28qjylwangulc",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "0I/qIJWxiRHuCHS7E+JEciwmzrEkSX9D2+vswn1oROA="
+                  "key": "ql8HqZf/3EnQJoShkN9jBYOdXjB3cr/Zd1jOa4H8yzk="
                 },
                 "value": {
                   "denom": "unibi",
@@ -647,7 +647,7 @@
                 }
               }
             ],
-            "memo": "d1fe224f9492cd4552e2b1df9ab052f99e07a308@192.168.1.94:26656",
+            "memo": "d8ab0b4a35efb1e787f2a4246d0dac4ba635dfe9@192.168.1.94:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -676,7 +676,7 @@
             "tip": null
           },
           "signatures": [
-            "Uu1pfQt7mI6nIUWnn+cTGc0K/B3/ayt7CIFUu9PH8OdV30etRFr3OHb8n6MoRucuf4766WBulBuRFml2Wwy1vg=="
+            "Au/8dkgFspB/W53wQ1Mp/r/dSj5uCvxRCxYQRzlvnVN+X4c7Y0TBzL2hqFn2cL5Y/RV09bhiyv74BQeUuEAA7w=="
           ]
         }
       ]
@@ -839,8 +839,8 @@
       "sudoers": {
         "root": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
         "contracts": [
-          "nibi1eee9vwtsuxxupmedztfztzhq4u060egcz8n4lmntuq4a9m7vgvnqny392r",
-          "nibi1x5zxu84hmucm3qrjxcqdjp2h6d37fx4jvc4g9fln6t80pj7q7m7slj9fgt"
+          "nibi1d9ac5ee4kxhdmdmc3emntxlagq5utfhhs4hfj2t9p42t8qvujerq740zg6",
+          "nibi1u5ndvgst2w85xtnwacv35pxjwjgsxaqa6yyuk2z52paqg9k0xwdqzdxzpg"
         ]
       }
     },
