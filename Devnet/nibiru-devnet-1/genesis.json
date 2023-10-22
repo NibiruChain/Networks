@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-10-22T04:00:04.039611Z",
+  "genesis_time": "2023-10-22T21:25:12.104642Z",
   "chain_id": "nibiru-devnet-1",
   "initial_height": "1",
   "consensus_params": {
@@ -289,7 +289,7 @@
             "admin": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn"
           },
           "funds": [],
-          "salt": "QVut5lSQcnTwW6e8iK5jNExYrlJk33Y/NjIjrAwi414=",
+          "salt": "K24xYPcsdDIkkNdhOY68RvpnYOEY3GyJ/u/k43TMbWo=",
           "fix_msg": true
         },
         {
@@ -308,7 +308,7 @@
             "admin": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn"
           },
           "funds": [],
-          "salt": "QVut5lSQcnTwW6e8iK5jNExYrlJk33Y/NjIjrAwi414=",
+          "salt": "K24xYPcsdDIkkNdhOY68RvpnYOEY3GyJ/u/k43TMbWo=",
           "fix_msg": true
         },
         {
@@ -325,13 +325,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "2iAyW+W6UGSRxoitcXNCgfvMCk+MsCd9FEdQNhTM+30=",
+          "salt": "CM26aJKJSXWJRsdJsrP0rLmuekFVRt5wo9CYeCfqYE4=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1m762jju3as30rmnvh679x8n3zatywfsegjtx3axt77d0hrxe3xhs0xv73q",
+          "contract": "nibi1u928hd3j35q0ldnuupkdqt5yavfulz6kv5532pl4e2qk4rq30ewslg2tnq",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -362,13 +362,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "vSckWkb1sOUVabTTY9G1IhvpQsOS34dtxaBB5tXoLCE=",
+          "salt": "Fh/iwhfB5/5ghrjG7z7jxKpDk/JAaCxVrFjlXBLK7Xs=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi15rpe6q6cqn9r5acr4kj9gpzkkrh95a925tl37rwzdw0aejjyxu9syc77jy",
+          "contract": "nibi1eefjykmfusue4m45x7873d6c4al0mq37xk8xg6pg8z9ct6md07jsf5ayua",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -399,13 +399,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "gZuXCc+RS5MwQL3Vk7mQn9Gb0s20Gg3nd3uxkZfXOS4=",
+          "salt": "+TdHsFYXIa0RwFDDe22jU5yj9Z0qEtEAU2K2p5LlYa8=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi18f5e0dt3mfdadq6u3nnaktgzp3hvrdaz2zmsmzxcsm2lrtvjrduq7xnw7a",
+          "contract": "nibi1f8s7lwfd29x5wydh6grlmlayyte7rmjcj04zk2zgtjtedm39uagsx4q6tq",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -436,13 +436,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "mowQihodBaYrNOy9zboDkrWIIM15CsrzyEVgTFPzp8c=",
+          "salt": "3c3RalrGRelGz3Z3N36Pn2jdOMvu+UkBYD97bZkXT94=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1n3z3a6aan3xtcst42mlp4mmc26x9f5pn0lz9nlw5tygg8detamfqsssvn0",
+          "contract": "nibi1j5nawk7ckfjpfpc03qeuv9udz3epxwa90gaf4fqkh46na8ef66kql7w0gk",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -473,13 +473,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "LUblUGcQ/aH+DppnFQILv1aVqJ/kOHWqVuAI17Iodz8=",
+          "salt": "8WecwY8OU8KPNd+EBXmA6vZpgW/HoNesst/1PXAumPA=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1jjckqe64878lv2sg4zjgj94yd8wevqdrdlp9my0t5vgq7yg0rz5q0p6qza",
+          "contract": "nibi19p2gmaakaan78jta5jvy94xsz9mgr4mss98gywc5enpvkh9hxlds7klekm",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -510,13 +510,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "LjG3wrUryfsQZPr+aGxrMTbpQJSd/NuBp7Xlk4tvJG4=",
+          "salt": "VUqx+YRWQ6CdbujokBZsy7LHNYZCQv3jnJ2WTZIBfbI=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1memydpew93lg43r6qdshmjg7ngw5ae00trymqgk8fepyes5erp0sg2txq6",
+          "contract": "nibi1s9gywxv74f4ey7nxd9vpstap0sjtvp025shjkfa7ntwlnz7mmnlsyhlgda",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -547,13 +547,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "lJiWjcjtpjzCF/2wFuJbGi5ehBdwhWJGl9m/HPCVRtA=",
+          "salt": "pf0rqgoN2H3SQrrEq50O122UfcUivGW1QCfdQobk3MM=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1g24sha2xs5m6neyejnc2uh2jvf8lu203dvd8wpu6t0alufc800sqxuvghp",
+          "contract": "nibi1hx45wmjvzdna7ftfdedl30n9tjevy0u9x5tzx5fmpqh60syuaxsqam2mr8",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -584,13 +584,13 @@
           "label": "token_vesting",
           "msg": {},
           "funds": [],
-          "salt": "LqKNr70JLsGfyoX4kqmaeH+N5hziA8EGO2aoQqCVaA4=",
+          "salt": "xr8qojoUV1djRDpjVyrEzMVyJWug3IRjb+tKgFpAPZE=",
           "fix_msg": true
         },
         {
           "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
           "sender": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
-          "contract": "nibi1hd7m4de849pf67xydrtkcazt3cjjphs7zefqvanr0qy3z79q8nnqlglxz6",
+          "contract": "nibi1g6qafc4er5f6suhjd84pt5qzal5xhhy482cxtl2c096a4cjp63yqhpsrte",
           "msg": {
             "register_vesting_account": {
               "master_address": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
@@ -639,7 +639,7 @@
                 "validator_address": "nibivaloper1m7jqj89rpqg5h49zh224eesnr28qjylwangulc",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "/A3Uxh9rEHbN76Nv3vcmegNEzg4uOEMicHFcSv8uGGU="
+                  "key": "0I/qIJWxiRHuCHS7E+JEciwmzrEkSX9D2+vswn1oROA="
                 },
                 "value": {
                   "denom": "unibi",
@@ -647,7 +647,7 @@
                 }
               }
             ],
-            "memo": "34235eaddc47eda93436243ef0f2b14129ad88f3@192.168.1.94:26656",
+            "memo": "d1fe224f9492cd4552e2b1df9ab052f99e07a308@192.168.1.94:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -676,7 +676,7 @@
             "tip": null
           },
           "signatures": [
-            "CHaBtIX0FPZ4/77m5f+5Cr5jP61Z7yv5RZLXPtxX0hZMKC/d+7a06nZZHZ4lehyQMhHnCtNNK1ZRY8T/xKIdSA=="
+            "Uu1pfQt7mI6nIUWnn+cTGc0K/B3/ayt7CIFUu9PH8OdV30etRFr3OHb8n6MoRucuf4766WBulBuRFml2Wwy1vg=="
           ]
         }
       ]
@@ -839,8 +839,8 @@
       "sudoers": {
         "root": "nibi1qyqf35fkhn73hjr70442fctpq8prpqr9ysj9sn",
         "contracts": [
-          "nibi1vlfugg8v7qs93aztju595am6c7wn3vrm3a47vj7tt7nwwmd2486s6lw7ax",
-          "nibi1p0q564ukdmvlvqm2neqpfek9u550a52vcyef7x84nsmqxn5ganpqy0jykc"
+          "nibi1eee9vwtsuxxupmedztfztzhq4u060egcz8n4lmntuq4a9m7vgvnqny392r",
+          "nibi1x5zxu84hmucm3qrjxcqdjp2h6d37fx4jvc4g9fln6t80pj7q7m7slj9fgt"
         ]
       }
     },
