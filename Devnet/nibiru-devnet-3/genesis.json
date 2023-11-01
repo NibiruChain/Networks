@@ -1078,9 +1078,9 @@
     "epochs": {
       "epochs": [
         {
-          "identifier": "15 min",
+          "identifier": "day",
           "start_time": "0001-01-01T00:00:00Z",
-          "duration": "900s",
+          "duration": "86400s",
           "current_epoch": "0",
           "current_epoch_start_time": "0001-01-01T00:00:00Z",
           "epoch_counting_started": false,
@@ -2394,7 +2394,7 @@
     },
     "inflation": {
       "params": {
-        "inflation_enabled": false,
+        "inflation_enabled": true,
         "exponential_calculation": {
           "a": "405000000.000000000000000000",
           "r": "0.500000000000000000",
