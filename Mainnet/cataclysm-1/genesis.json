@@ -2885,7 +2885,1253 @@
       ]
     },
     "genutil": {
-      "gen_txs": []
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "01node",
+                  "identity": "7BDD4C2E94392626",
+                  "website": "https://01node.com",
+                  "security_contact": "secops@01node.com",
+                  "details": "Securely validating one block at a time since 2019"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1w26kzhwhely77xup3npfh70tzuc4amtxwfp9pv",
+                "validator_address": "nibivaloper1w26kzhwhely77xup3npfh70tzuc4amtx8j0743",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "w7+ynCim+LPLcLuBfE5Y/LWeoPOHFeRa+zz1AYqPpZ4="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "f8ddb6e7c9dcb47f0ceda7eeebaa7520317dae04@0.0.0.0:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgfE2V70GAi2uZ/Rw7qChW+jTbIVHnLHJnXpKWoajUwz"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "F8WAQxHrpOpVS6TuX6GapJ/4GXZFdAeZHo8sscbxvwNFoFKjAQFoFybbdKvIuPkqzQ0dUTOqNEt1PbRqVUYmig=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "lesnik | UTSA",
+                  "identity": "A0B5FF00B5460153",
+                  "website": "https://utsa.gitbook.io/services",
+                  "security_contact": "lesnik13utsa@yandex.ru",
+                  "details": "Trustworthy and high performance validator"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.250000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1he44du3wsg3qgysyj0wlclq20apj880kh34uzd",
+                "validator_address": "nibivaloper1he44du3wsg3qgysyj0wlclq20apj880k72m8ks",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "rV8dwmC6KUgvYONcw7kFK8D/C7Zd3YC6E0lHpn0h1yo="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "05c36c3e579d3fc5b0efaa44f5a197f7a96c09ce@65.109.104.118:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/r+vw7yHc+xtc7YXtioaLGbbxZSmPuO5PuGz7lka51A"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "9546pZC9eebCS03Msa42jzaUh6SOpmtVGlOUPU//5Qxn61+uZ2JrtmvUAjntDZZ6zxlsaKaJb5nixHnqGNQzrQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Nodes.Guru",
+                  "identity": "28B672FCE6BBD562",
+                  "website": "https://stake.nodes.guru",
+                  "security_contact": "info@nodes.guru",
+                  "details": "Guru of non-custodial staking. Professional node running, low fees, best uptime and 24/7 customer support."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1hvt68he6uvadnk73rjy6hg7a4u2myud5dvu2fy",
+                "validator_address": "nibivaloper1hvt68he6uvadnk73rjy6hg7a4u2myud5yhj3ae",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "EYO7Ad1fg/WMK6FPo6/qghofKAGXOZOgC32ublR4Vv8="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "063df1b08744f8150f2b00913a0cec9fcbd47ac8@51.89.173.96:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AxMd/pWJPJYr1vl2uVzSn6LY/Uaw144OIJpxDNzewZm1"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "cdNby2wZAkRN2r7NRhGGlw8NlIDt4gkvQhNojl4BlrkQM94ToeV15K9AJnikUgYlJzX9BE7wO2SQpa4zNq1hPg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "B-Harvest",
+                  "identity": "8957C5091FBF4192",
+                  "website": "https://bharvest.io",
+                  "security_contact": "contact@bharvest.io",
+                  "details": "Provides secure validation services for dPoS networks"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1ycq5mqre2xtygwqgl8q486xnse6z7ewpar9dlx",
+                "validator_address": "nibivaloper1ycq5mqre2xtygwqgl8q486xnse6z7ewp5ctktm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "jEoeCg/GRSjDwVMrINj7/xKEbQwj9oBDfztufq5Khq8="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "41afe661ff1f9b82cc280945fe2b5c7982ae7b3a@155.55.88.0:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5QZjH9paU70xYzyZS6OfH4JJ0HuReRC7oz+3t1skdm+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "38VA1fsjfT67Qj/GZV0hZt9Q7zg1/Djh4P5Cks8bcoQeLN8UnIfYRDREHeBSbF5dkxBkGinYj+7NcJ3OuaGhcg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Anticapital",
+                  "identity": "",
+                  "website": "https://www.anticapital.ai/",
+                  "security_contact": "Anticapital's Official Validator",
+                  "details": "max@anticapital.ai"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1fgkx2g9vycsh7esmc07kstjpmes6qtk2v5mvuy",
+                "validator_address": "nibivaloper1fgkx2g9vycsh7esmc07kstjpmes6qtk2904hge",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "+badVAQcg2RnOwsdea0obSQiBY7YQejbe63RuD9J94s="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "540dbb11be5efe9c7fcaac0a18ce83d44dbb8515@10.121.40.102:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnDXPrZLF+glpL8h6ozHwEu2iCZ9V7b9cfxUSMXpLwsC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "qrQu0kBtHi7A33pd8H6NLaO/EkXKgCAQ5amnq6DClNEAtzo6QZpm7VmAxXSwyOyJ6ep+2BUeipIRdK0S3oeh+Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "nibiru-0",
+                  "identity": "",
+                  "website": "https://nibiru.fi",
+                  "security_contact": "dev@nibiru.fi",
+                  "details": "Nibiru Foundation's official validator"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi16azns5zxfw8p5kyu630y68rv5vfsptqzmgpjl4",
+                "validator_address": "nibivaloper16azns5zxfw8p5kyu630y68rv5vfsptqzjn0ftg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "nARZc2p4TM0/rI7b1b0SX9byVhTrVbaXHrBJKQ0HOpY="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "76027f5f897dbf721237d9ce3ff544cbe80a2a9f@192.168.1.94:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4AydhMkRJstWkSPirWCH+Qab0vffQoZtvnMtlH+m5Vk"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "6O+32jgr890IHuSNQLXlUvUrRqzPZ0hPABQcZq9DaqE1fA4RRWRIWhbqp55vWSWaN/ruMkGigIlRxk+bwf3arw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BwareLabs",
+                  "identity": "E83A08BEEE7A70BD",
+                  "website": "https://bwarelabs.com",
+                  "security_contact": "validators@bwarelabs.com",
+                  "details": "Guaranteed availability and up-time backed by a professional blockchain infrastructure team."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1pcmenc2my46uq7esscaav230x97j4alzt6hryp",
+                "validator_address": "nibivaloper1pcmenc2my46uq7esscaav230x97j4alzzpecsu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "QKv86rqZfC5P4lwlDYkcb2ee5EamMdykGzdH1o/GbIw="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "0f3f1804f685c3d14f50324e5ff3d9ed2a058ec9@167.235.115.119:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AwezE1qkVhaoorRTv0CbAxmsQeOOebWxxeZPcA7K3i7c"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "j3/AiP5GIRm0OxZWKpwTkuNwX124eCAQqI+aNCygeAsoCYtHfDDaM8OdKf683t5hE40PEFUiFnXSXEbV/Xspew=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Citadel.one",
+                  "identity": "EBB03EB4BB4CFCA7",
+                  "website": "https://citadel.one",
+                  "security_contact": "nikita@citadel.one",
+                  "details": "Citadel.one is a multi-asset non-custodial staking platform that lets anyone become a part of decentralized infrastructure and earn passive income. Stake with our nodes or any other validator across multiple networks in a few clicks"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.030000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1rpgv3p3f6psushxlgx6p8tpchy7ata84kf0ecn",
+                "validator_address": "nibivaloper1rpgv3p3f6psushxlgx6p8tpchy7ata84ljpzvw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "bBj6nIyR2CWo2/uok1mofuAaW4cXuYA/0FUeFxHsLhs="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "995365a52e027207bef80c93742e54338ff3bb48@192.168.70.132:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ApjG/euIboeF7H6FTowPYWRZdxW9J1cvq3jX/GKwk9bw"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "65JSeYBZCs3xL0VLqSL88E1iKX4DuIjghht5E5VEBhhzSfkSWFnO5FMU3dqHtkuiYxUiHwQT5pST/SHa7d3vgQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Cosmostation",
+                  "identity": "AE4C403A6E7AA1AC",
+                  "website": "https://www.cosmostation.io",
+                  "security_contact": "admin@stamper.network",
+                  "details": "Cosmostation validator node. Delegate your tokens and Start Earning Staking Rewards"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1d69ht9mh7lle2kq5ujhxjqnwvz5q7e86a27clm",
+                "validator_address": "nibivaloper1d69ht9mh7lle2kq5ujhxjqnwvz5q7e8653srtx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "asfM3LAStSkg8UNWv0GEnfwaruk1oIOcWB+mwbBDREI="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "b92f68d3c518b4c74c5da3424d5865b820a52c19@0.0.0.0:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtZ1rKUb5jRDmORCiX5J8uG05CVS4S4knEA30dhnOODM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "alh45Rf6erqzMltk4oWrDmhaluA6nKvuSVThCK2LPRgFbzMWJ02arMy0zKVFVA5eDhwJDbL7r83upjcxV8HAMA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Crypton",
+                  "identity": "F25449F94D54BED9",
+                  "website": "https://crypton.xyz/en",
+                  "security_contact": "",
+                  "details": "Cryptocurrency is difficult to understand? We don't think so."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1z0mdrgt9jfxtvj4kq3d9a39zt90xcqatfjsgxw",
+                "validator_address": "nibivaloper1z0mdrgt9jfxtvj4kq3d9a39zt90xcqatqf7njn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Q/CyDGcXVpWyZP1N/cnRGzfF5kJDxtUD1uV3FnvD2P0="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "adb4697278be8f6fae0d9d9b87b3b73f2da03adb@128.140.38.207:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkSG03FCgek7NH+2yFq2WzYjnqZ5sSeS9V7LmTbdkpz/"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "15P6oHfCOey2/I+XMaGnjvI/wWcoA8znRLmXQFLmcZ5l0R3ZNFpN3AResEuJdJeu+a194MHqePvgKPCpHcvL3A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Dora Factory",
+                  "identity": "1BEC0B582AEDB0EC",
+                  "website": "https://dorafactory.org/",
+                  "security_contact": "node-operation@mail.dorafactory.org",
+                  "details": "Public Good Staking"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi18uvkfr5rfph54lre6hzh6er7egz0pcs0eamg58",
+                "validator_address": "nibivaloper18uvkfr5rfph54lre6hzh6er7egz0pcs0sx4nq6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "OoDO74lDgTtbjUfOF1yGOHQ0x3OvOp7FVBoZeWQnyX8="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "f0ccacd7cd19f7c30c203ca4c9cbee62d4f8f773@100.76.168.239:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgIimBJuRGmecWY8FKo7RO2ZrsYCyvLbHVj+xpNJoM9W"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "asypLgvtdcGN3S2P/2WmzzduAhLTEPSWibGNHDZRQWEkXNFekTjxpgqeOtiNNvUHzPvRMinSH93P3WtneQpdPw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": " Lavender.Five Nodes 🐝 ",
+                  "identity": "F87ADDB700C0CC94",
+                  "website": "https://www.lavenderfive.com/",
+                  "security_contact": "hello@lavenderfive.com",
+                  "details": "Fortifying crypto networks with Horcrux security, slash insurance, and open source contributions. Connect with us at https://linktr.ee/lavenderfive."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi140l6y2gp3gxvay6qtn70re7z2s0gn57zmuha0j",
+                "validator_address": "nibivaloper140l6y2gp3gxvay6qtn70re7z2s0gn57zj8exm0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2HzlhNyHHT58v1q0buYmuQDRoCy+5Tu482NU4hGcTcM="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "57d8c89c6deb2715449c4bf58aa011860e0d855c@192.168.1.42:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgAxffwFDTjrK5UoAmT9aVOuI7CGxe3T5Wsxx2kWWhJB"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "PLiXBrY+yLjQMJlMQdCBgMbRU8kp64VYzFZ60pW+ZHVrkIykJc0XDpmXJ3cqh3X+RWy4h4vmfzcBZUfmLdDwGQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stakecito",
+                  "identity": "D16E26E5C8154E17",
+                  "website": "https://stakecito.com/",
+                  "security_contact": "security@stakecito.de",
+                  "details": "Securing \u0026 Decentralizing PoS Networks."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1qe8uuf5x69c526h4nzxwv4ltftr73v7qhsqq3l",
+                "validator_address": "nibivaloper1qe8uuf5x69c526h4nzxwv4ltftr73v7q7twm9z",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "PpbvH3glBEwT5taOpHjl/IPTfB+KOGCyYTVcpvJPB2A="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "03742f0512f5c04ed90c23e5d3a3f26e53aa2459@0.0.0.0:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AuWYtBbktzO6xMxXxpCAvbtCgwTfMu6OnmHZzXO+OBiV"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "9hk4je4GaVnNzBX8+VbjjGOcJTHbz6B0MP0Khq6elNFQCvzDIVKAmR9KRCS7NEWj0uzCBGDbnjrWGKK0b6BXig=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakingCabin",
+                  "identity": "C0522DF992B0C407",
+                  "website": "https://stakingcabin.com",
+                  "security_contact": "richard@stakingcabin.com",
+                  "details": "StakingCabin"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1s08wlsm6z9kfpeszpaeskpc0q4yzqenm56ceng",
+                "validator_address": "nibivaloper1s08wlsm6z9kfpeszpaeskpc0q4yzqenmapkz84",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "4i66Ufgj+9U/WAPcZtg3slm1gMv0Zaj0BF7Mu0eXXpQ="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "d7f81b5c0525da17d9848172c50455363ca2dd74@172.31.7.96:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A9N6qewmAyGQ9liDzLUTnh7v0sWt45QkozArZ4bjIvXY"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "VpNdsablQ+wMIoHXgMut5/gtocJK1hPh9jOsEpms9gI0EwuXpe6g0N10ExhRPZkMfN5wwDH2JLShvsGDRUTN4Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Stakin",
+                  "identity": "83D300CB42D06962",
+                  "website": "https://stakin.com",
+                  "security_contact": "security@stakin.com",
+                  "details": "Reliable and Secure Staking Services Trusted by Institutions. ISO27001 certified, Cosmos ecosystem contributor, IBC relayer provider. Visit our website to know more about Stakin and for T\u0026Cs."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1qykek884ukypyynxfuxn5vu68zgmpc6m0n5ktv",
+                "validator_address": "nibivaloper1qykek884ukypyynxfuxn5vu68zgmpc6mxg6dl3",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "3F8SyUEDADQwBUnW1MQmLnkdHZ15OPakdpcNB1AJX/s="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "e1aa8c37d92e87977274d69a1494a1c284c4d1a4@65.109.59.174:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtxoYN903FWofTl1F20r0pdBnUPBrjFILMyFYfuTdHIu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "6Blp8LZZs1+6Oy8s/xyQSZgykD2BQbm/hPsMdFWT6BV3N3/+ENftQYHzzMsIJePJssifWGWxPP0PlgrKlPdPKg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "LeccaVentures",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1vc4zv6enn7t0htm64z8y2k6d4f8y5qf03ehqyp",
+                "validator_address": "nibivaloper1vc4zv6enn7t0htm64z8y2k6d4f8y5qf0czemsu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "C3K2VeBgW7w43VmfjBmYWIrKhUSRh9cDk4/nooD5ECY="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "e835038c5d62941122206ecb3d6572f52b1e51bc@45.94.58.220:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AmXWRRoFjujKIa2mnfAP0zp5x/rFJxaCoB2eNnL64xxM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "unibi",
+                  "amount": "5000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "wqFScNakCzp/sAoHjkeLExsXRinoFwQ/WeM4E57RRLkAEbKJN3W2NbkbsXPFu2ApXSQTlqf8IpoI4g5ZG+MDuw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Imperator.co",
+                  "identity": "0878BA6BE556C132",
+                  "website": "https://imperator.co/",
+                  "security_contact": "contact@imperator.co",
+                  "details": "100% refund on downtime slashing -- Leading Proof-of-Stake Network Validator \u0026 Relayer"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.500000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1s504sp9yelhws2saw4rq03dh29yvna22drajrx",
+                "validator_address": "nibivaloper1s504sp9yelhws2saw4rq03dh29yvna22ycnfhm",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ZLy6HKAVTKajgsCXwL+7lp7Xl2L7rVBfJx2JGnaYIm0="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "e9a39f48f1f3cef7b469a04f47430262a6d11f65@192.168.1.25:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/IeoF0dmSpE1o1H1IvLmffo8V+8XIFS23DEBiWT5iqR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "gbvVGldH8wrIlLQhsPHxKtKWeE10BP4Xy2JRi30kbGkTPuEjl4HfpJ1BAhDvjS8V0acQg4tXBWOX6kOf31y9iA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": " kjnodes.com 🦄",
+                  "identity": "1C5ACD2EEF363C3A",
+                  "website": "https://services.kjnodes.com/mainnet/nibiru",
+                  "security_contact": "contact@kjnodes.com",
+                  "details": "Trusted Proof of Stake validator across Cosmos universe. Active ecosystem contributor, IBC relayer and chain service provider since 2021. We deliver top-notch secure and reliable infrastructure for Cosmos projects. 24/7 monitoring with no slashing history in our track record."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi169haflwp0wj4jd29zm6eg4kkxztptry674aqs3",
+                "validator_address": "nibivaloper169haflwp0wj4jd29zm6eg4kkxztptry6hwnmyv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "p6S+FQn4l71P5JzWBiimYrPQN8zr6Ph8PcGzqrWqLaE="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "f9d7b341e3fa08c65b56d1f386c70fb7c861adc9@37.27.5.157:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7j2uPxpgKutyf2ob7anyrYJoNaTi/7lmBtHqjmFoKU+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "4JcDQMKBO3f4oAZmGTWkJJbQ8jpPdTAuE1GBORjSUjt9Eb1vNMYBHI9G7r5pXygoSPt0PRJKGb9G2BBKtSV89w=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "polkachu.com",
+                  "identity": "0A6AF02D1557E5B4",
+                  "website": "https://polkachu.com",
+                  "security_contact": "hello@polkachu.com",
+                  "details": "Polkachu is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@polkachu.com"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.100000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1cz36jg407s0z4f2vd7u6yc44v480dtplmceka8",
+                "validator_address": "nibivaloper1cz36jg407s0z4f2vd7u6yc44v480dtpljrhdf6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zzpE4NkhPkuuMaNcpIG7HsGseIhpaOQQiIyW4D/oAtI="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "18108276e02fc618aae66b10c8fde773992f8889@51.81.49.176:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhkRSYsQDi6T+AtlHGGn40PLhODAmIx0W04CfTn4eODW"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "YiRoDyc3S3eQ7H3NRVNvSOsiKXlO7G/v3wCanhJGaw5LHc/UUT3za6Vsh7jkjMbBPb7VZmg20KEA8RExzOV/Jw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "silent",
+                  "identity": "A47522A5527DB39F",
+                  "website": "https://silentvalidator.com",
+                  "security_contact": "security@silentvalidator.com",
+                  "details": "Silent Validator leverages robust infrastructure and deep expertise to provide highly reliable validation services, enriches the community and furthers the growth of the ecosystem."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nibi1ruawqv46utt5e42xpp5v75slrdjmdes50jfca0",
+                "validator_address": "nibivaloper1ruawqv46utt5e42xpp5v75slrdjmdes5xf8rfj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "VcjhftxXhnWDOjocC9C880mC8F1p5b1FT68KRy2r3Fg="
+                },
+                "value": {
+                  "denom": "unibi",
+                  "amount": "9500000"
+                }
+              }
+            ],
+            "memo": "0c1ea7a68f8f2a9ea31f715d78b1fde21fa6ee63@65.108.227.114:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Azyjx9JPjTRVvtOPTCEUTFZ2FYNHbGHeI395Ys/NsfJD"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "2+Ykp98GuKmXgm+wPq+J4w4CtF8FgGWK4B/cfebIdIc/wfDpl1/zdjMIBpd+y7MgVNJXXUwOq3lMo+VaOQ7N+g=="
+          ]
+        }
+      ]
     },
     "gov": {
       "starting_proposal_id": "1",
