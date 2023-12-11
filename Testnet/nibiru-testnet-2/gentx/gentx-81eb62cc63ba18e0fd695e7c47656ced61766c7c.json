@@ -1,0 +1,62 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "nibiru-0",
+          "identity": "",
+          "website": "https://nibiru.fi",
+          "security_contact": "dev@nibiru.org",
+          "details": ""
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.250000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "nibi1mj56wgrmg2wdczq2hkc424d8fwt3zek8xa7e24",
+        "validator_address": "nibivaloper1mj56wgrmg2wdczq2hkc424d8fwt3zek80xsz7g",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "XLEujf+pCcXHbMadB22wyXKVTRFr0U8hUFyxhAgQWGI="
+        },
+        "value": {
+          "denom": "unibi",
+          "amount": "10000000"
+        }
+      }
+    ],
+    "memo": "81eb62cc63ba18e0fd695e7c47656ced61766c7c@192.168.1.216:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "AzgV/I2/DUcGBTNGOjsd3j4O2AtAxen6Iik65Gq/mUd8"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    },
+    "tip": null
+  },
+  "signatures": [
+    "O4lb1ItfBmp9jDSJ5rF56ViE8XatmjeXSU5cw7bzFEVmXuIJyDm5XjRbywlN4hmekNcQ2vPsq48DDuvKn6aD7A=="
+  ]
+}
