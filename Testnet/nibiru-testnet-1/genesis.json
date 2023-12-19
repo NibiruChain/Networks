@@ -543,6 +543,13 @@
           "pub_key": null,
           "account_number": "72",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
+          "pub_key": null,
+          "account_number": "73",
+          "sequence": "0"
         }
       ]
     },
@@ -759,6 +766,15 @@
             {
               "denom": "unibi",
               "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "1000000000000000000"
             }
           ]
         },
@@ -1216,7 +1232,7 @@
       "supply": [
         {
           "denom": "unibi",
-          "amount": "1500010000000000"
+          "amount": "1001500010000000000"
         }
       ],
       "denom_metadata": [
