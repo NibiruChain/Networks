@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-12-14T13:47:00.421373Z",
+  "genesis_time": "2023-12-19T19:59:32.157518Z",
   "chain_id": "nibiru-devnet-4",
   "initial_height": "1",
   "consensus_params": {
@@ -42,86 +42,107 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1ljhfmddrxt3axx2y0f5dvt0mxhxkkvs3pewdmq",
+          "address": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1wwhdx03msygelmm8tm5z6nzh4dklwkettwd5vj",
+          "address": "nibi1ljhfmddrxt3axx2y0f5dvt0mxhxkkvs3pewdmq",
           "pub_key": null,
           "account_number": "2",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1rlvdjfmxkyfj4tzu73p8m4g2h4y89xccf9622l",
+          "address": "nibi1wwhdx03msygelmm8tm5z6nzh4dklwkettwd5vj",
           "pub_key": null,
           "account_number": "3",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1aj6vgnj5hh0ehe5memz0f38z2lla2z5gdj5vst",
+          "address": "nibi1rlvdjfmxkyfj4tzu73p8m4g2h4y89xccf9622l",
           "pub_key": null,
           "account_number": "4",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1fkjq5y3vs80pgrzkmeajj6pmcdhlyzkwjt9nya",
+          "address": "nibi1aj6vgnj5hh0ehe5memz0f38z2lla2z5gdj5vst",
           "pub_key": null,
           "account_number": "5",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1fnfkm6yk6ejay7xkhak4nlxxcnyz8wjwt9a3ve",
+          "address": "nibi1fkjq5y3vs80pgrzkmeajj6pmcdhlyzkwjt9nya",
           "pub_key": null,
           "account_number": "6",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1ytf8uvxjx0guxcj7mxs9x8xw5suters539dxp5",
+          "address": "nibi1fnfkm6yk6ejay7xkhak4nlxxcnyz8wjwt9a3ve",
           "pub_key": null,
           "account_number": "7",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi144l9wy4q4gflsltm595arfvra74vd8tk9a2gfj",
+          "address": "nibi1ytf8uvxjx0guxcj7mxs9x8xw5suters539dxp5",
           "pub_key": null,
           "account_number": "8",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1hqlhfrp93z4nc588jfvy96pvyn9pnu79a5f65k",
+          "address": "nibi144l9wy4q4gflsltm595arfvra74vd8tk9a2gfj",
           "pub_key": null,
           "account_number": "9",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1xfdlvvmx03nyav4840z25m33qrwzy67p4eadn7",
+          "address": "nibi1hqlhfrp93z4nc588jfvy96pvyn9pnu79a5f65k",
           "pub_key": null,
           "account_number": "10",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1lq3ktemm9rhpu0je850rnlrny752v6yu9wurws",
+          "address": "nibi1xfdlvvmx03nyav4840z25m33qrwzy67p4eadn7",
           "pub_key": null,
           "account_number": "11",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi17dz4cdw5fmm2cxd4ht9xvjmpw3ycmpkpcc6js9",
+          "address": "nibi1lq3ktemm9rhpu0je850rnlrny752v6yu9wurws",
           "pub_key": null,
           "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi17dz4cdw5fmm2cxd4ht9xvjmpw3ycmpkpcc6js9",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi1cq87ggjzlt3jzs8u7fc2e36e7nellvatzw8a63",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nibi1ppgm7j7gd0l0e493raexj0d3aeua7rych7gmms",
+          "pub_key": null,
+          "account_number": "15",
           "sequence": "0"
         }
       ]
@@ -136,6 +157,15 @@
       },
       "balances": [
         {
+          "address": "nibi1ppgm7j7gd0l0e493raexj0d3aeua7rych7gmms",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "1000000000000000000"
+            }
+          ]
+        },
+        {
           "address": "nibi1rlvdjfmxkyfj4tzu73p8m4g2h4y89xccf9622l",
           "coins": [
             {
@@ -159,6 +189,15 @@
             {
               "denom": "unibi",
               "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nibi1gc6vpl9j0ty8tkt53787zps9ezc70kj88hluw4",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "1000000000000000000"
             }
           ]
         },
@@ -217,6 +256,15 @@
           ]
         },
         {
+          "address": "nibi1cq87ggjzlt3jzs8u7fc2e36e7nellvatzw8a63",
+          "coins": [
+            {
+              "denom": "unibi",
+              "amount": "1000000000000000000"
+            }
+          ]
+        },
+        {
           "address": "nibi1aj6vgnj5hh0ehe5memz0f38z2lla2z5gdj5vst",
           "coins": [
             {
@@ -256,7 +304,7 @@
       "supply": [
         {
           "denom": "unibi",
-          "amount": "1000000012000000000"
+          "amount": "4000000012000000000"
         }
       ],
       "denom_metadata": [
@@ -412,7 +460,7 @@
             ]
           },
           "funds": [],
-          "salt": "Fw/lWySjGdvEGk45w56gBwae9EBuT2m0BbZeCPUY6cs=",
+          "salt": "q7D/6at6JI6iTM14qNSIzpvi/HCacPu/GId3cw46QE8=",
           "fix_msg": true
         },
         {
@@ -428,7 +476,7 @@
           "code_id": "2",
           "label": "nibiru core multisig",
           "msg": {
-            "group_addr": "nibi1q54cx93zgz47xkg2gne2m5caraqz452del7krwuac2fgsgmymmzs6ch8u3",
+            "group_addr": "nibi1kw8a727sm6hkjd9scw7tslyhpq6ynhghzextyq09wrdvvs72l4wscsq638",
             "max_voting_period": {
               "time": 86400
             },
@@ -439,7 +487,7 @@
             }
           },
           "funds": [],
-          "salt": "W6DgyROeTqZL7kGLVnBGZkoMYA1fK3P1Mghurj4CMxc=",
+          "salt": "AMdQGmO/2XjmUWVHtsDSHRssMXjCWqTUEuSyqDr3xNc=",
           "fix_msg": true
         }
       ]
@@ -468,7 +516,7 @@
                 "validator_address": "nibivaloper1lq3ktemm9rhpu0je850rnlrny752v6yuv4jc6d",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "k8H6M/XfDx/zxrWBIUoXo7t2D4Ksbha0Wyaue9OAzJY="
+                  "key": "lbKAso/Ifhe2/cowFCg2RpKqSnhOEvQkrqd30FW95eA="
                 },
                 "value": {
                   "denom": "unibi",
@@ -476,7 +524,7 @@
                 }
               }
             ],
-            "memo": "db40381c4eda49fbe472c5ebbe88bd6810e58d8a@192.168.1.216:26656",
+            "memo": "b7f03e83dc8e107e53a5cbdff60fb94e417a8823@10.194.126.48:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -505,7 +553,7 @@
             "tip": null
           },
           "signatures": [
-            "fRVuY70x644ZGz4PoKX9xx1f7qO1X+BjSPCQAbm88LQNuigLwSkukyQeqJ1NleFKPHGVrTm5VJRRl97g4mxoLQ=="
+            "crFdOO/DSGOZnqDL1Wm2XJZNUpNQUQ9ox9HgarthCy9QuWrm40lUaeIFXAbQF/xrACYpJxH3tSbX3WU+yBFj0Q=="
           ]
         }
       ]
@@ -648,7 +696,7 @@
       "sudoers": {
         "root": "nibi1lq3ktemm9rhpu0je850rnlrny752v6yu9wurws",
         "contracts": [
-          "nibi16sl6k8hl90v5hsce835qgvp4pn6kljegqn9wkhhhnj6tmyg3r84snejuxm"
+          "nibi1zg5jsssgse40a6rpref23ra2g7rpy3856ljxee37pka53cc38dus3lq4wp"
         ]
       }
     },
