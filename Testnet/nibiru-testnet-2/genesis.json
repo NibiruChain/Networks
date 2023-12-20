@@ -650,10 +650,11 @@
             "denom": "unusd",
             "amount": "0"
           },
-          "max_funding_rate": "0.010000000000000000"
+          "max_funding_rate": "0.010000000000000000",
+          "oracle_pair": "ubtc:uusd"
         },
         {
-          "pair": "ubtc:unusd",
+          "pair": "ueth:unusd",
           "enabled": true,
           "version": "0",
           "maintenance_margin_ratio": "0.050000000000000000",
@@ -669,7 +670,8 @@
             "denom": "unusd",
             "amount": "0"
           },
-          "max_funding_rate": "0.010000000000000000"
+          "max_funding_rate": "0.010000000000000000",
+          "oracle_pair": "ueth:uusd"
         }
       ],
       "amms": [
@@ -685,7 +687,7 @@
           "settlement_price": "0.000000000000000000"
         },
         {
-          "pair": "ubtc:unusd",
+          "pair": "ueth:unusd",
           "version": "0",
           "base_reserve": "40000000000000.000000000000000000",
           "quote_reserve": "40000000000000.000000000000000000",
