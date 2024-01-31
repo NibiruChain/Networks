@@ -621,29 +621,6 @@
         "next_channel_sequence": "0"
       }
     },
-    "inflation": {
-      "params": {
-        "inflation_enabled": false,
-        "polynomial_factors": [
-          "-0.000149030000000000",
-          "0.075276470000000000",
-          "-19.117421540000000000",
-          "3170.096990500000000000",
-          "-339271.310604320000000000",
-          "18063678.858241800000000000"
-        ],
-        "inflation_distribution": {
-          "staking_rewards": "0.277572170000000000",
-          "community_pool": "0.351591410000000000",
-          "strategic_reserves": "0.370836420000000000"
-        },
-        "epochs_per_period": "30",
-        "periods_per_year": "12",
-        "max_period": "96"
-      },
-      "period": "0",
-      "skipped_epochs": "0"
-    },
     "oracle": {
       "params": {
         "vote_period": "30",
@@ -679,21 +656,6 @@
       "rewards": []
     },
     "params": null,
-    "perp": {
-      "markets": [],
-      "amms": [],
-      "positions": [],
-      "reserve_snapshots": [],
-      "dnr_epoch": "0",
-      "collateral_denom": "tf/nibi14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9ssa9gcs/unusd",
-      "trader_volumes": [],
-      "global_discount": [],
-      "custom_discounts": [],
-      "market_last_versions": [],
-      "global_volumes": [],
-      "rebates_allocations": [],
-      "dnr_epoch_name": ""
-    },
     "slashing": {
       "params": {
         "signed_blocks_window": "35000",
@@ -704,24 +666,6 @@
       },
       "signing_infos": [],
       "missed_blocks": []
-    },
-    "spot": {
-      "params": {
-        "starting_pool_number": "1",
-        "pool_creation_fee": [
-          {
-            "denom": "unibi",
-            "amount": "1000000000"
-          }
-        ],
-        "whitelisted_asset": [
-          "unibi",
-          "uusdc",
-          "unusd",
-          "uusdt"
-        ]
-      },
-      "pools": []
     },
     "staking": {
       "params": {
