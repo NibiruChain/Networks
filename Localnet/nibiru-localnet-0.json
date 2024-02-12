@@ -1,0 +1,314 @@
+{
+  "app_message": {
+    "07-tendermint": null,
+    "auth": {
+      "accounts": [],
+      "params": {
+        "max_memo_characters": "256",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10"
+      }
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "balances": [],
+      "denom_metadata": [
+        {
+          "base": "unibi",
+          "denom_units": [
+            {
+              "aliases": [
+                "micronibi"
+              ],
+              "denom": "unibi",
+              "exponent": 0
+            },
+            {
+              "aliases": [],
+              "denom": "NIBI",
+              "exponent": 6
+            }
+          ],
+          "description": "The native staking token of the Nibiru network.",
+          "display": "NIBI",
+          "name": "NIBI",
+          "symbol": "NIBI",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "params": {
+        "default_send_enabled": true,
+        "send_enabled": []
+      },
+      "send_enabled": [],
+      "supply": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "1000",
+        "denom": "unibi"
+      }
+    },
+    "devgas": {
+      "fee_share": [],
+      "params": {
+        "allowed_denoms": [],
+        "developer_shares": "0.500000000000000000",
+        "enable_fee_share": true
+      }
+    },
+    "distribution": {
+      "delegator_starting_infos": [],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": []
+      },
+      "outstanding_rewards": [],
+      "params": {
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "community_tax": "0.020000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "previous_proposer": "",
+      "validator_accumulated_commissions": [],
+      "validator_current_rewards": [],
+      "validator_historical_rewards": [],
+      "validator_slash_events": []
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "1800s",
+          "epoch_counting_started": false,
+          "identifier": "30 min",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "epoch_counting_started": false,
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "epoch_counting_started": false,
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "2592000s",
+          "epoch_counting_started": false,
+          "identifier": "month",
+          "start_time": "0001-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "fee_enabled_channels": [],
+      "forward_relayers": [],
+      "identified_fees": [],
+      "registered_counterparty_payees": [],
+      "registered_payees": []
+    },
+    "genmsg": {
+      "messages": []
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "deposit_params": null,
+      "deposits": [],
+      "params": {
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_quorum": false,
+        "burn_vote_veto": true,
+        "max_deposit_period": "60s",
+        "min_deposit": [
+          {
+            "amount": "10000000",
+            "denom": "unibi"
+          }
+        ],
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "voting_period": "60s"
+      },
+      "proposals": [],
+      "starting_proposal_id": "1",
+      "tally_params": null,
+      "votes": [],
+      "voting_params": null
+    },
+    "group": {
+      "group_members": [],
+      "group_policies": [],
+      "group_policy_seq": "0",
+      "group_seq": "0",
+      "groups": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "channel_genesis": {
+        "ack_sequences": [],
+        "acknowledgements": [],
+        "channels": [],
+        "commitments": [],
+        "next_channel_sequence": "0",
+        "receipts": [],
+        "recv_sequences": [],
+        "send_sequences": []
+      },
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "create_localhost": false,
+        "next_client_sequence": "0",
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint",
+            "09-localhost"
+          ]
+        }
+      },
+      "connection_genesis": {
+        "client_connection_paths": [],
+        "connections": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      }
+    },
+    "oracle": {
+      "aggregate_exchange_rate_prevotes": [],
+      "aggregate_exchange_rate_votes": [],
+      "exchange_rates": [],
+      "feeder_delegations": [],
+      "miss_counters": [],
+      "pairs": [],
+      "params": {
+        "expiration_blocks": "900",
+        "min_valid_per_window": "0.690000000000000000",
+        "min_voters": "4",
+        "reward_band": "0.020000000000000000",
+        "slash_fraction": "0.005000000000000000",
+        "slash_window": "3600",
+        "twap_lookback_window": "900s",
+        "validator_fee_ratio": "0.050000000000000000",
+        "vote_period": "30",
+        "vote_threshold": "0.333333333333333333",
+        "whitelist": [
+          "ubtc:uusd",
+          "ueth:uusd",
+          "uatom:uusd",
+          "uusdc:uusd",
+          "uusdt:uusd"
+        ]
+      },
+      "rewards": []
+    },
+    "params": null,
+    "slashing": {
+      "missed_blocks": [],
+      "params": {
+        "downtime_jail_duration": "600s",
+        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "100",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": []
+    },
+    "staking": {
+      "delegations": [],
+      "exported": false,
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "params": {
+        "bond_denom": "unibi",
+        "historical_entries": 10000,
+        "max_entries": 7,
+        "max_validators": 100,
+        "min_commission_rate": "0.050000000000000000",
+        "unbonding_time": "60s"
+      },
+      "redelegations": [],
+      "unbonding_delegations": [],
+      "validators": []
+    },
+    "sudo": {
+      "sudoers": {
+        "contracts": [],
+        "root": ""
+      }
+    },
+    "tokenfactory": {
+      "factory_denoms": [],
+      "params": {
+        "denom_creation_gas_consume": "4000000"
+      }
+    },
+    "transfer": {
+      "denom_traces": [],
+      "params": {
+        "receive_enabled": true,
+        "send_enabled": true
+      },
+      "port_id": "transfer",
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "codes": [],
+      "contracts": [],
+      "params": {
+        "code_upload_access": {
+          "addresses": [],
+          "permission": "Everybody"
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "sequences": []
+    }
+  },
+  "chain_id": "nibiru-localnet-0",
+  "gentxs_dir": "",
+  "moniker": "nibiru-localnet-0",
+  "node_id": "81eb62cc63ba18e0fd695e7c47656ced61766c7c"
+}
