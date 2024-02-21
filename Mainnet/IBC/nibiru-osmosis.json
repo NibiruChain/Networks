@@ -1,0 +1,46 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain_1": {
+    "chain_name": "nibiru",
+    "client_id": "07-tendermint-0",
+    "connection_id": "connection-0"
+  },
+  "chain_2": {
+    "chain_name": "osmosis",
+    "client_id": "07-tendermint-3104",
+    "connection_id": "connection-2580"
+  },
+  "channels": [
+    {
+      "chain_1": {
+        "channel_id": "channel-139",
+        "port_id": "transfer"
+      },
+      "chain_2": {
+        "channel_id": "channel-21113",
+        "port_id": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "chain_1": {
+        "address": "nibi18xrruhq5r246mwk0yj9elnn3mte8xa9uhsl590"
+      },
+      "chain_2": {
+        "address": "osmo18xrruhq5r246mwk0yj9elnn3mte8xa9ugwga6w"
+      },
+      "memo": "Relayed with 💜 by Lavender.Five Nodes 🐝",
+      "name": "Ertemann",
+      "discord": {
+        "handle": "ertemann",
+        "id": "261246914685698050"
+      }
+    }
+  ]
+}
