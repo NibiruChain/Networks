@@ -385,7 +385,7 @@
         {
           "identifier": "day",
           "start_time": "0001-01-01T00:00:00Z",
-          "duration": "30s",
+          "duration": "5s",
           "current_epoch": "0",
           "current_epoch_start_time": "0001-01-01T00:00:00Z",
           "epoch_counting_started": false,
@@ -556,7 +556,7 @@
       "proposals": [],
       "deposit_params": null,
       "voting_params": {
-        "voting_period": "60s"
+        "voting_period": "30s"
       },
       "tally_params": null,
       "params": {
@@ -567,7 +567,7 @@
           }
         ],
         "max_deposit_period": "172800s",
-        "voting_period": "60s",
+        "voting_period": "30s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
@@ -688,7 +688,8 @@
       "sudoers": {
         "root": "nibi1lq3ktemm9rhpu0je850rnlrny752v6yu9wurws",
         "contracts": [
-          "nibi1wtm7lnklplwegt5cuzvrnfgu4wzc6fgmcj62spnvrkc5m5sxn6wshgjyfz"
+          "nibi1wtm7lnklplwegt5cuzvrnfgu4wzc6fgmcj62spnvrkc5m5sxn6wshgjyfz",
+          "nibi1lq3ktemm9rhpu0je850rnlrny752v6yu9wurws"
         ]
       }
     },
