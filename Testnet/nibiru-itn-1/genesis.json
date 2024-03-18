@@ -90,7 +90,7 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "account_number": "0",
-          "address": "nibi1jle8khj3aennq24zx6g93aam9rt0fqhgyp4h52",
+          "address": "nibi1p843wl02mg3k2u33ts2damxs27s5q6ngww8dkt",
           "pub_key": null,
           "sequence": "0"
         },
@@ -266,7 +266,7 @@
           ]
         },
         {
-          "address": "nibi1jle8khj3aennq24zx6g93aam9rt0fqhgyp4h52",
+          "address": "nibi1p843wl02mg3k2u33ts2damxs27s5q6ngww8dkt",
           "coins": [
             {
               "amount": "1000000000000",

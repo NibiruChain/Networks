@@ -105,7 +105,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nibi1jle8khj3aennq24zx6g93aam9rt0fqhgyp4h52",
+          "address": "nibi1p843wl02mg3k2u33ts2damxs27s5q6ngww8dkt",
           "pub_key": null,
           "account_number": "10",
           "sequence": "0"
@@ -279,7 +279,7 @@
           ]
         },
         {
-          "address": "nibi1jle8khj3aennq24zx6g93aam9rt0fqhgyp4h52",
+          "address": "nibi1p843wl02mg3k2u33ts2damxs27s5q6ngww8dkt",
           "coins": [
             {
               "denom": "unibi",
